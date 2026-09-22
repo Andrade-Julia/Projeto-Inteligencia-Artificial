@@ -17,7 +17,7 @@ dados_list = []
 
 try:
     # Apenas unidades: Brasilândia e vila nova cachoeirinha
-    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=vila-nova-cachoeirinha%2Bbrasilandia"
+    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=jacana%2Bjardim-sao-luis%2Bvila-nova-cachoeirinha%2Bnucleo-taipas%2Bnucleo-luz%2Bbrasilandia%2Bcapao-redondo"
     navegador.get(url)
 
     time.sleep(3) # O codigo espera 3 segundos antes de começar a trabalhar, ele "espera o site carregar"
