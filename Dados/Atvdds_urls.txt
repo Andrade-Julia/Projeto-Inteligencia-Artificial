@@ -1,0 +1,8 @@
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=730&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=62&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=53&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=43&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=761&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=51&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=52&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
+https://www.sescsp.org.br/wp-json/wp/v1/atividades/filter?local=61&categoria=&gratuito=&online=&atividade=&data_inicial=&data_final=&tipo=atividade&dinamico=true&ppp=1000&page=1
