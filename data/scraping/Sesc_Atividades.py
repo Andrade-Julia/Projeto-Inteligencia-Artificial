@@ -1,3 +1,18 @@
+# Classificacao Automatica de Atividades Culturais e Educacionais
+# Coleta das atividades do SESC pelo endpoint JSON do site
+#
+# Integrantes: Beatriz Aparecida de Mello Barbosa (10354067), Bruna Goncalves Corte David (10425696),
+#              Henrique Brainer Costa (10420717), Joao Pedro Queiroz de Andrade (10425822),
+#              Julia Andrade (10428513)
+#
+# Conteudo: le os endpoints de cada unidade do SESC, pega os dados de cada atividade e busca a
+#           descricao completa na pagina da atividade. Gera um .txt e um .csv.
+#
+# Alteracoes:
+#   2026-09-22 - Julia - primeira versao da coleta pelo endpoint JSON
+#   2026-09-23 - Julia - inclusao da descricao completa, lida da pagina de cada atividade
+#   2026-09-25 - Bruna - leitura das categorias corrigida e inclusao do publico
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -81,8 +96,22 @@ with open('Atvdds_urls.txt', 'r', encoding='utf-8') as urls:
                         lista_unidades = [i.get('name') for i in item.get('unidade', []) if i.get('name')]
                         unidade_avdd = ", ".join(lista_unidades)
 
-                        lista_categorias = [j.get('titulo') for j in item.get('categorias', []) if j.get('titulo')]
-                        categoria_atvdd = ", ".join(lista_categorias)
+                        # O campo 'categorias' vem vazio em quase toda atividade.
+                        # As categorias de verdade ficam em 'tipos_linguagens', e as mais
+                        # especificas ficam dentro de 'children'.
+                        lista_categorias = []
+                        for j in item.get('tipos_linguagens', []):
+                            if j.get('titulo'):
+                                lista_categorias.append(j.get('titulo'))
+                            for filho in j.get('children', []):
+                                if filho.get('titulo'):
+                                    lista_categorias.append(filho.get('titulo'))
+                        # separador | porque tem nome de categoria com virgula dentro,
+                        # como "Shows, Espetaculos e Performances"
+                        categoria_atvdd = "|".join(lista_categorias)
+
+                        lista_publico = [p.get('titulo') for p in item.get('publico_tag', []) if p.get('titulo')]
+                        publico_atvdd = "|".join(lista_publico)
 
                         campo_gratuito = item.get('gratuito', '').strip()
                         if campo_gratuito == "":
@@ -98,6 +127,7 @@ with open('Atvdds_urls.txt', 'r', encoding='utf-8') as urls:
                             "Data Ultima seção": clean_date_LS,
                             "Unidade": unidade_avdd,
                             "Categorias": categoria_atvdd,
+                            "Publico": publico_atvdd,
                             "Acesso": pagamento, 
                             "Link": link_completo
                         }

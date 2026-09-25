@@ -1,0 +1,14 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Vetores gerados pelo notebook 03, refeitos ao rodar os notebooks
+data/processed/*.npy
+
+# Sistema e editores
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/

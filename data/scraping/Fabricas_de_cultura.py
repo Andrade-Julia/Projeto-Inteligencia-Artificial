@@ -1,3 +1,19 @@
+# Classificacao Automatica de Atividades Culturais e Educacionais
+# Coleta das atividades das Fabricas de Cultura pelo navegador
+#
+# Integrantes: Beatriz Aparecida de Mello Barbosa (10354067), Bruna Goncalves Corte David (10425696),
+#              Henrique Brainer Costa (10420717), Joao Pedro Queiroz de Andrade (10425822),
+#              Julia Andrade (10428513)
+#
+# Conteudo: abre a programacao das Fabricas de Cultura no navegador, clica no botao de carregar
+#           mais ate o fim da lista e guarda nome, categoria, unidade, data e descricao de cada
+#           atividade num .csv.
+#
+# Alteracoes:
+#   2026-09-22 - Julia - primeira versao usando Selenium
+#   2026-09-23 - Julia - coleta da descricao completa de cada atividade
+#   2026-09-25 - Bruna - coleta de todas as unidades, e nao so de duas
+
 import csv
 import time # para evitar que o programa entenda a demora de uma requisição na internet como "acabaram os botões"
 from selenium import webdriver # Para trabalhar usando o edge, tb existe o do chrome, firefox... etc
@@ -16,8 +32,10 @@ except:
 dados_list = []
 
 try:
-    # Apenas unidades: Brasilândia e vila nova cachoeirinha
-    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=jacana%2Bjardim-sao-luis%2Bvila-nova-cachoeirinha%2Bnucleo-taipas%2Bnucleo-luz%2Bbrasilandia%2Bcapao-redondo"
+    # Sem filtro de unidade, para pegar a programacao de todas as Fabricas.
+    # Para limitar a algumas unidades, usar ?local= com os nomes separados por %2B,
+    # por exemplo: ?local=vilanovacachoeirinha%2Bbrasilandia
+    url = "https://www.fabricasdecultura.org.br//programacao-cultural/"
     navegador.get(url)
 
     time.sleep(3) # O codigo espera 3 segundos antes de começar a trabalhar, ele "espera o site carregar"

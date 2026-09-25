@@ -1,0 +1,19 @@
+# Bibliotecas necessárias para rodar os notebooks deste projeto.
+# Instalação: py -3.11 -m pip install -r requirements.txt
+#
+# O notebook 02 usa a lista de stopwords do português do NLTK. Se for a primeira vez:
+#   py -3.11 -c "import nltk; nltk.download('stopwords')"
+
+pandas==3.0.6                  # tabelas
+numpy==2.3.2                   # contas com vetores e matrizes
+matplotlib==3.11.1             # gráficos
+scikit-learn==1.9.0            # TF-IDF, K-Means, métricas
+nltk==3.10.3                   # lista de stopwords do português
+sentence-transformers==6.0.0   # modelo que transforma o texto em embeddings
+ipykernel==7.3.0               # executar os notebooks
+nbconvert==7.17.1              # executar os notebooks pela linha de comando
+
+# Coleta dos dados (scripts em data/scraping/)
+requests==2.34.2               # coleta do SESC pelo endpoint JSON
+beautifulsoup4==4.15.0         # leitura da página de cada atividade do SESC
+selenium==4.49.0               # coleta das Fábricas de Cultura pelo navegador
