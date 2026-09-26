@@ -9,7 +9,7 @@ Universidade Presbiteriana Mackenzie, 2026/2. Prof. Dr. Ivan Carlos Alcântara d
 | Bruna Gonçalves Corte David | 10425696 | bruna.david@mackenzista.com.br |
 | Henrique Brainer Costa | 10420717 | henriquebrainer.costa@mackenzista.com.br |
 | João Pedro Queiroz de Andrade | 10425822 | joaopedroqueiroz.andrade@mackenzista.com.br |
-| Júlia Andrade | 10428513 | juliaandrade.andrade@mackenzista.com.br |
+| Júlia Andrade | 10428513 | 10428513.andrade@mackenzista.com.br |
 
 ## O problema
 

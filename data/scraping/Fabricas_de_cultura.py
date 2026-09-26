@@ -35,7 +35,7 @@ try:
     # Sem filtro de unidade, para pegar a programacao de todas as Fabricas.
     # Para limitar a algumas unidades, usar ?local= com os nomes separados por %2B,
     # por exemplo: ?local=vilanovacachoeirinha%2Bbrasilandia
-    url = "https://www.fabricasdecultura.org.br//programacao-cultural/"
+    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=jacana%2Bjardim-sao-luis%2Bvila-nova-cachoeirinha%2Bnucleo-taipas%2Bnucleo-luz%2Bbrasilandia%2Bcapao-redondo%22"
     navegador.get(url)
 
     time.sleep(3) # O codigo espera 3 segundos antes de começar a trabalhar, ele "espera o site carregar"
