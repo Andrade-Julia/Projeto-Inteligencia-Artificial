@@ -12,7 +12,7 @@ dado de pessoa nenhuma.
 | Arquivo | Conteúdo |
 |---|---|
 | `raw/fabricas_activities_2026-09-23.csv` | 141 atividades das Fábricas de Cultura, 6 unidades, 19 categorias, uma categoria por atividade |
-| `raw/sesc_activities_2026-09-23.csv` | 564 atividades do SESC, 9 unidades, com a descrição completa |
+| `raw/sesc_activities_2026-09-23.csv` | 564 atividades do SESC, 8 unidades, com a descrição completa |
 | `raw/sesc_categories_2026-09-25.csv` | 582 atividades do SESC com as categorias e o público, coletadas depois para corrigir o campo errado (ver abaixo) |
 
 Os arquivos de `raw/` não são alterados. Coleta nova entra como arquivo novo, com a data no nome.
