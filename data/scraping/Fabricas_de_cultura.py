@@ -12,7 +12,7 @@
 # Alteracoes:
 #   2026-09-22 - Julia - primeira versao usando Selenium
 #   2026-09-23 - Julia - coleta da descricao completa de cada atividade
-#   2026-09-25 - Bruna - coleta de todas as unidades, e nao so de duas
+#   2026-09-25 - Bruna - correcao do comentario das unidades coletadas
 
 import csv
 import time # para evitar que o programa entenda a demora de uma requisição na internet como "acabaram os botões"
@@ -32,10 +32,9 @@ except:
 dados_list = []
 
 try:
-    # Sem filtro de unidade, para pegar a programacao de todas as Fabricas.
-    # Para limitar a algumas unidades, usar ?local= com os nomes separados por %2B,
-    # por exemplo: ?local=vilanovacachoeirinha%2Bbrasilandia
-    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=jacana%2Bjardim-sao-luis%2Bvila-nova-cachoeirinha%2Bnucleo-taipas%2Bnucleo-luz%2Bbrasilandia%2Bcapao-redondo%22"
+    # Unidades coletadas: Jacana, Jardim Sao Luis, Vila Nova Cachoeirinha, Nucleo Taipas,
+    # Nucleo Luz, Brasilandia e Capao Redondo
+    url = "https://www.fabricasdecultura.org.br//programacao-cultural/?local=jacana%2Bjardim-sao-luis%2Bvila-nova-cachoeirinha%2Bnucleo-taipas%2Bnucleo-luz%2Bbrasilandia%2Bcapao-redondo"
     navegador.get(url)
 
     time.sleep(3) # O codigo espera 3 segundos antes de começar a trabalhar, ele "espera o site carregar"
