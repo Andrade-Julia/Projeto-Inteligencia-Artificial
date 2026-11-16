@@ -12,8 +12,10 @@ nltk==3.10.3                   # lista de stopwords do português
 sentence-transformers==6.0.0   # modelo que transforma o texto em embeddings
 ipykernel==7.3.0               # executar os notebooks
 nbconvert==7.17.1              # executar os notebooks pela linha de comando
+fastapi==0.141.1               # API local que recebe a descrição e devolve as categorias
+uvicorn==0.52.4                # servidor que roda a API (py -3.11 -m uvicorn api.main:app)
 
-# Coleta dos dados (scripts em data/scraping/)
+# Coleta dos dados (scripts em data/01_scraping/)
 requests==2.34.2               # coleta do SESC pelo endpoint JSON
 beautifulsoup4==4.15.0         # leitura da página de cada atividade do SESC
 selenium==4.49.0               # coleta das Fábricas de Cultura pelo navegador

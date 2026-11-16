@@ -5,7 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Vetores gerados pelo notebook 03, refeitos ao rodar os notebooks
-data/processed/*.npy
+data/03_processed/*.npy
 
 # Sistema e editores
 desktop.ini

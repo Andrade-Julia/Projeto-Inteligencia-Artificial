@@ -1,0 +1,537 @@
+Você vai classificar 100 atividades culturais e educacionais em categorias. Para cada atividade, escolha na lista abaixo as categorias que combinam com ela.
+
+Critério:
+
+1ª categoria: a que mais se aproxima de descrever o que a atividade é.
+
+Categorias seguintes: entram por um de dois motivos. Ou a categoria também descreve o que a atividade é, ou quem procura essa categoria provavelmente se interessaria por esta atividade.
+
+Regras:
+- Use o número da categoria, da lista abaixo.
+- Dê de 1 a 4 categorias, da mais importante para a menos. Não existe quantidade certa: uma atividade pode ter uma só.
+- Se nenhuma das 13 categorias servir, ou se não der para julgar pela descrição, deixe categoria_1 vazia e explique em observacao.
+
+As 13 categorias:
+1. Artes Visuais: desenho, pintura, fotografia, gravura, design, vídeo e outras formas de criar imagens.
+2. Artesanato: fazer peças com as mãos: costura, crochê, tecelagem, cerâmica, marcenaria, bijuteria.
+3. Atividade Física e Bem-Estar: cuidar do corpo sem competir: yoga, pilates, ginástica, alongamento, meditação, dança como exercício.
+4. Cinema: exibição de filmes, mostras, cineclubes e atividades sobre cinema.
+5. Cultura e Identidade: atividades centradas na cultura e na identidade de um povo ou grupo: negra, indígena, periférica, nordestina, entre outras.
+6. Esporte: modalidades esportivas, em aula, treino, torneio ou recreação: futebol, vôlei, basquete, natação, corrida, lutas, skate, tênis de mesa.
+7. Infância e Brincadeiras: atividades feitas para crianças e bebês, com ou sem a família: brincar, jogos, espaços de brincar.
+8. Literatura e Leitura: livros, leitura, escrita, poesia, contação de histórias, clubes de leitura, encontros com autores.
+9. Música: aprender e praticar música: aulas de instrumento e de canto, orquestra, coral, prática em grupo.
+10. Plantas e Alimentação: plantas, horta, permacultura, ervas medicinais, culinária, feiras de alimentos.
+11. Reciclagem e Sustentabilidade: meio ambiente, reciclagem, lixo, consumo consciente, clima.
+12. Shows, Espetáculos e Performances: apresentações para assistir: show de música, teatro, circo, dança, mágica, festival com palco.
+13. Sociedade e Debates: palestras, cursos, seminários e rodas de conversa sobre temas da sociedade: educação, história, política, direitos, tecnologia, saúde mental.
+
+Responda só com uma tabela em texto, sem explicação antes ou depois: a linha de cabeçalho abaixo e uma linha por atividade, com as colunas separadas por ponto e vírgula.
+id;categoria_1;categoria_2;categoria_3;categoria_4;observacao
+
+============================================================
+id: 24
+Título: A CAIXA DE BRINCADEIRAS DA BIBLIOTECA JSL | MEMÓRIAS DO BRINCAR QUE CONECTAM DIFERENTES GERAÇÕES – COM EQUIPE BIBLIOTECA
+Descrição: E se a biblioteca pudesse guardar não só livros, mas também as brincadeiras que marcaram a infância de diferentes gerações? Nesta vivência, crianças e adultos vão abrir a Caixa de Brincadeiras, descobrir memórias e experimentar jogos, cantigas e desafios corporais. Uma viagem divertida pelo passado que ganha novos sentidos no presente e ajuda a construir um acervo de brincadeiras para o futuro!
+
+============================================================
+id: 30
+Título: OFICINA DE CONTAÇÃO DE HISTÓRIAS – COM SANDRA SAMPAIO
+Descrição: A atividade será conduzida de maneira lúdica e participativa, utilizando narrativas infantis que estimulem a criatividade, a fantasia, a oralidade e a capacidade de interpretação das crianças. A proposta poderá reunir contos tradicionais, histórias contemporâneas e narrativas que abordem temas como amizade, respeito, diversidade, cooperação, descobertas e valorização da infância.
+
+============================================================
+id: 31
+Título: CRIANDO COM MIÇANGAS – COM EQUIPE BIBLIOTECA
+Descrição: No clima do Dia das Crianças, venha soltar a imaginação na oficina Criando com Miçangas! Entre cores, formas e muita criatividade, cada participante poderá confeccionar pulseiras, colares e outros acessórios exclusivos. Uma atividade divertida que estimula a expressão, a concentração e a coordenação motora, com a oportunidade de levar para casa uma criação feita por você.
+
+============================================================
+id: 39
+Título: FESTIVAL DE ARTES DA FÁBRICA DE CULTURA EM TAIPAS | DJ SONORA EMBALA A FESTA
+Descrição: Inspirado por memórias de sua infância na periferia da Zona Noroeste de São Paulo, DJ Sonora traz o melhor setlist “intra gerações” que promete envolver, fortalecer conexões e animar o público no Festival de Artes da Fábrica de Cultura em Taipas.
+
+============================================================
+id: 41
+Título: FESTIVAL DE ARTES DA FÁBRICA DE CULTURA EM TAIPAS – SHOW DE CALOUROS COM PALCO ABERTO
+Descrição: Talentos de Taipas e região poderão subir ao palco do Festival de Artes da Fábrica de Cultura em Taipas para apresentações artísticas diversas. As performances serão livres e poderão envolver música, dança, stand up comedy, dublagem e muito mais! Tudo pode acontecer, pois o palco é seu!
+
+============================================================
+id: 44
+Título: FESTIVAL DE ARTES DA FÁBRICA DE CULTURA EM TAIPAS | K-POP COM MORNING FLARE DANCE GROUP
+Descrição: O grupo de dança Morning Flare convida o público para uma apresentação repleta de energia, música e dança inspirada no universo do K-pop no Festival de Artes da Fábrica de Cultura. Com coreografias dinâmicas, figurinos marcantes e muita interação, o grupo traz ao palco performances de artistas renomados da música sul-coreana. A apresentação que será voltada para toda a família irá celebrar a arte, a criatividade e a alegria por meio da dança.
+
+============================================================
+id: 49
+Título: PALAVRA VIVA: PROVÉRBIOS, ADIVINHAS E SABEDORIA DE RODA – COM EQUIPE BIBLIOTECA
+Descrição: Quem nunca ouviu um ditado, uma adivinha ou uma história que atravessou gerações? Nesta roda de conversa, vamos compartilhar memórias, brincadeiras e saberes da cultura popular, descobrindo os significados que carregam. A partir dessas histórias, os participantes serão convidados a explorar o acervo da Biblioteca e encontrar livros que dialogam com esses conhecimentos. Ao final, a turma construirá um mural coletivo com provérbios, adivinhas e frases criadas durante o encontro.
+
+============================================================
+id: 55
+Título: EXPLOSÃO DE CORES – COM EQUIPE BIBLIOTECA
+Descrição: E se a tinta pudesse criar surpresas? Nessa oficina, a pintura ganha novas formas por meio de técnicas divertidas e cheias de criatividade. Entre sopros, dobraduras e barbantes, cada participante descobrirá que o acaso também faz parte da arte, transformando manchas em personagens, paisagens e muitas outras criações únicas.
+
+============================================================
+id: 56
+Título: ESCREVENDO MINHA CANÇÃO – COM EQUIPE BIBLIOTECA
+Descrição: Já imaginou transformar sentimentos e memórias em uma música feita por muitas vozes? Nesta oficina, os participantes vão criar coletivamente a letra de uma canção inspirada no amor e na amizade, compartilhando ideias, versos e experiências. Depois, a criação ganhará vida no estúdio, onde todos poderão conhecer o processo de gravação de uma música. Uma experiência criativa de escrita, colaboração e descoberta, mostrando que cada voz pode fazer parte de uma grande composição!
+
+============================================================
+id: 60
+Título: HOJE É DIA DE SER CRIANÇA – COM EQUIPE BIBLIOTECA
+Descrição: Que tal deixar a rotina de lado e voltar a brincar? Em celebração ao Dia das Crianças, a atividade Hoje é dia de ser criança convida o público para uma tarde de jogos, risadas e novas amizades. Com brincadeiras como Alerta, Jogo da Velha Humano e Pique Estátua, vamos exercitar a criatividade, a cooperação e o prazer de brincar juntos. Venha se divertir e resgatar a alegria das brincadeiras em grupo!
+
+============================================================
+id: 63
+Título: OUTUBRO ROSA: SAÚDE DA MULHER EM PAUTA
+Descrição: A ONG Efeito Formiguinhas em parceria com ONG Américas tem como missão reduzir a mortalidade por câncer de mama no Brasil. Entre os dias 20 á 24 de outubro, será ofertado a população exames de detecção precoce como mamografias e ultrassons de forma gratuita, focando no amparo a comunidades periféricas e vulneráveis.
+O evento OUTUBRO ROSA: SAÚDE DA MULHER EM PAUTA, ocorrerá na Fábrica de Cultura Brasilândia em combate ao câncer de mama, prevenção da saúde da mulher, com conversas e formações sobre saúde pública e ginecológica.
+
+============================================================
+id: 69
+Título: MANTO DO INVISÍVEL: MEMÓRIAS EM PRODUÇÕES TÊXTEIS
+Descrição: A materialidade têxtil esconde/revela complexas tramas entre corpo e memória. Manto do Invisível consiste em uma oficina-performance que busca trançar na coletividade um território para liberar as sensibilidades partindo de memórias afetivas com o ofício artístico da costura. Em procedimentos poéticos e pedagógicos, pensar criticamente sobre trabalhos invisibilizados na cadeia têxtil e na indústria da moda, segunda maior poluidora do planeta.
+  À partir do entendimento de corpo-tela como episteme, grafamos entre costuras, amarrações e outras técnicas uma colcha de retalhos. Poéticas de reutilização de materiais que produzem conhecimento no corpo, aproximações entre retalhos aparentemente incongruentes, mas que se inscrevem como hieróglifos. Como Leda Maria Martins elabora, “retórica de retalhos”. No final, dançamos a obra.
+
+============================================================
+id: 70
+Título: ANTES DA ANIMAÇÃO: BRINQUEDOS ÓPTICOS – COM EQUIPE BIBLIOTECA
+Descrição: No Dia Internacional da Animação, descubra como tudo começou! Na oficina Antes da Animação: Brinquedos Ópticos, os participantes irão construir um taumatrópio e conhecer, de forma divertida, um dos primeiros brinquedos que criou a ilusão do movimento. Uma experiência criativa que une arte, ciência e imaginação para revelar a magia por trás das animações.
+
+============================================================
+id: 72
+Título: DIA DO SACI | JAXY JATERÊ – CONFECÇÃO DE MARCA PÁGINAS COM EQUIPE BIBLIOTECA
+Descrição: Você já ouviu falar em Jaxy Jaterê? Nesta oficina, vamos conhecer um pouco mais sobre esse personagem presente nos saberes e narrativas indígenas, compartilhando histórias, conhecimentos e curiosidades sobre esse universo. Depois, cada participante poderá soltar a imaginação e criar seu próprio marca-páginas inspirado no Jaxy Jaterê. Uma experiência de aprendizado, criatividade e valorização da cultura indígena!
+
+============================================================
+id: 76
+Título: OFICINA CRIATIVA – VIRADA SUSTENTÁVEL
+Descrição: Como parte da programação especial da Virada Sustentável, o LOOZ HUB — projeto de residência artística internacional com direção e gestão de Mariana Luz e participação do artista italiano Mister Thoms — realiza uma oficina prática. Os participantes criarão trabalhos artísticos inspirados em ecologia e preservação ambiental, utilizando a arte como ferramenta de reflexão sobre o cuidado com o meio ambiente
+
+============================================================
+id: 78
+Título: VIRADA SUSTENTÁVEL: PAINEL SONORO COM MATERIAL RECICLÁVEL
+Descrição: A oficina propõe a construção coletiva de um painel sonoro utilizando materiais recicláveis, explorando a criatividade, a educação ambiental e a musicalidade.
+
+============================================================
+id: 81
+Título: CRIAR, RECICLAR E ECONOMIZAR: PORQUINHOS SUSTENTÁVEIS – COM EQUIPE BIBLIOTECA
+Descrição: Que tal transformar uma simples garrafa PET em um porquinho cheio de personalidade? Nesta oficina, os participantes serão convidados a soltar a criatividade para construir e decorar seus próprios cofrinhos utilizando materiais recicláveis. A atividade convida as crianças a descobrir novas possibilidades para aquilo que seria descartado, refletindo de forma divertida sobre o cuidado com o meio ambiente, a reciclagem e a importância de guardar dinheiro para realizar pequenos sonhos.
+
+============================================================
+id: 108
+Título: FÁBRICA CAPÃO 14 ANOS APRESENTA: DRI LIMA & BANDA
+Descrição: Em celebração aos 14 anos da Fábrica de Cultura Capão Redondo, Dri Lima chega com um show incrível para fazer uma grande festa, valorizando a arte do território.
+
+============================================================
+id: 109
+Título: FÁBRICA CAPÃO 14 ANOS: DICKY BRADA
+Descrição: Como parte da programação especial dos 14 anos da Fábrica de Cultura Capão Redondo, Dicky Brada sobe ao palco com uma apresentação cheia de música, atitude e representatividade. Cantora, MC e coreógrafa da Zona Sul, a artista promete envolver o público em um show vibrante. O evento contará ainda com diversas outras atrações para toda a família.
+
+============================================================
+id: 118
+Título: FESTIVAL TAMBORES E PANDEIROS DO JAÇANÃ
+Descrição: Em celebração ao Dia Nacional do Samba, a Fábrica de Cultura Jaçanã realiza o Festival Tambores e Pandeiros do Jaçanã, reunindo música, tradição, ancestralidade, economia criativa e cultura popular em uma grande festa no território. A programação contará com a participação do Batucanjira, tradicional bloco afro da Zona Norte, e do Grupo Arte do Samba, coletivo nascido no território, que apresentam um repertório de samba e pagode, além de convidados especiais e atrações independentes da região.
+O festival também contará com cortejo simbólico, apresentações musicais e uma Feira de Economia Criativa, reunindo empreendedores locais, artesãos, produtores culturais e iniciativas do território. A ação contará ainda com a participação de instituições parceiras, que oferecerão serviços e orientações sociais à população, fortalecendo a rede de apoio e ampliando o acesso a direitos.
+Para as crianças, haverá um Espaço Kids, com atividades lúdicas e culturais que possibilitam uma vivência divertida e participativa do universo do samba. Ao integrar música, cultura, convivência e economia criativa, o festival valoriza os artistas e empreendedores locais e fortalece os vínculos entre comunidade, memória e território.
+O Festival Tambores e Pandeiros do Jaçanã reafirma o samba como expressão de resistência, identidade e pertencimento, além de contribuir para a valorização e preservação das tradições do samba e da cultura afro-brasileira.
+Local: Rua Roberto Lanari – Jova Rural, São Paulo/SP
+
+============================================================
+id: 120
+Título: HISTÓRIAS PRETINHAS PARA TODAS AS IDADES
+Descrição: O projeto de contação de histórias “Histórias pretinhas para todas as idades” reúne contos africanos e afro-brasileiros que, de forma lúdica e imaginativa, nos convida a pensar a existência do mundo a partir de outras cosmologias. A cada apresentação, dois contos etiológicos são contados ao som de tambores, padeiro, agogô e/ou kalimba.
+
+============================================================
+id: 131
+Título: Jogo Poullball na Brasilândia
+Descrição: O Poullball é um jogo coletivo, dinâmico e inclusivo, que estimula o trabalho em equipe, a agilidade e o raciocínio estratégico. Integrada à programação da Semana Move, a atividade será realizada na Fábrica de Cultura Brasilândia, convidando o público a experimentar uma modalidade inovadora em um ambiente de convivência, movimento e diversão. *Sem retirada de ingresso
+
+============================================================
+id: 132
+Título: Mostra Tecnologias de Todos os Tempos - 80 anos
+Descrição: A mostra “Tecnologia de Todos os Tempos” convida o público a embarcar em uma viagem pela memória de objetos que marcaram diferentes épocas e transformaram a vida cotidiana ao longo das décadas. Telefones, rádios, videogames, computadores, câmeras e tantos outros aparelhos revelam como cada geração encontrou novas formas de se comunicar, trabalhar, aprender e se divertir. *Sem retirada de ingresso
+
+============================================================
+id: 133
+Título: Vivência de Paraskate
+Descrição: Vivência de Paraskate com Vini Sardi, Tony Alves e Brian Felix, reunindo demonstrações e experimentação da modalidade em uma ação inclusiva e inspiradora. A atividade valoriza a diversidade no esporte, incentivando a participação do público e o contato com práticas adaptadas durante a Semana Move no Sesc Casa Verde. *Sem retirada de senha
+
+============================================================
+id: 135
+Título: Bolsa de crochê
+Descrição: A oficina propõe a confecção de uma bolsa em crochê, abordando técnicas de pontos, estrutura, modelagem e acabamentos. Ao longo do processo, os participantes desenvolvem uma peça autoral, exercitando habilidades manuais e explorando as possibilidades criativas do fazer têxtil. *Retirada de senha na Central de Atendimento, 15 minutos antes do início da atividade.
+
+============================================================
+id: 136
+Título: Vaisy Alencar Trio
+Descrição: A clarinetista e arranjadora Vaisy Alencar apresenta o projeto “Vibrações: o violão brasileiro”, com arranjos inéditos de obras de grandes referências do instrumento no Brasil. Em formação de trio, a clarinetista explora as sonoridades do clarinete e do clarone ao lado do baixo acústico e da guitarra, interpretando peças muitas vezes registradas apenas em versões para violão solo. Ficha técnica:Vaisy Alencar – ClarineteGabriel Bertuol – GuitarraFelipe Gianei – Baixo AcústicoGustavo do Vale – Técnico de somMarcos Nascimento – Produção Local
+
+============================================================
+id: 155
+Título: Mural "Memórias Uchinanchu"
+Descrição: “Memórias Uchinanchu”constrói uma narrativa contínua que conecta Okinawa e Brasil como experiências sobrepostas. A partir doBingata, cores, símbolos e gestos evocam memórias transmitidas entre gerações, marcadas pela resistência, pela reinvenção e pelo pertencimento. O mural estabelece uma ponte viva entre passado e presente, saberes, corpos e culturas em movimento no Sesc Casa Verde. Clique aqui e saiba mais! *Sem retirada de ingresso
+
+============================================================
+id: 158
+Título: Joga Comigo!
+Descrição: Atividade interativa que promove a integração, bem-estar, saúde e a diversão entre os participantes por meio do esporte e atividades física. *Esta atividade não acontecerá do dia 25/08 a 02/09
+
+============================================================
+id: 164
+Título: Aprendendo a Pedalar
+Descrição: A atividade Aprendendo a Pedalar propõe uma vivência prática voltada a iniciantes, criando um ambiente seguro e acolhedor para o desenvolvimento do equilíbrio, coordenação e confiança sobre a bicicleta. Com acompanhamento dos educadores, os participantes experimentam exercícios progressivos que auxiliam no domínio do pedal, da frenagem e da condução, respeitando o ritmo individual de aprendizagem. Além do aprendizado técnico, a prática amplia o acesso à cultura da bicicleta como possibilidade de lazer, atividade física e mobilidade urbana, incentivando a autonomia e o cuidado no uso dos espaços compartilhados. * Indicado para crianças a partir de 6 anos
+
+============================================================
+id: 165
+Título: Yoga Inclusivo
+Descrição: A atividade de Yoga Inclusivo integra a programação da Semana Move e propõe a prática de Hatha Yoga e meditação em um ambiente acolhedor, acessível e diverso, reunindo pessoas com e sem deficiência em uma mesma aula. A proposta utiliza uma abordagem inclusiva que reconhece a singularidade dos corpos, das experiências e das formas de vivenciar o movimento e o autocuidado. A metodologia contempla adaptações que garantem a participação de diferentes públicos, incluindo pessoas com deficiência física, visual e auditiva, mobilidade reduzida, neurodivergências e outros perfis. Entre os recursos utilizados estão práticas adaptadas, como yoga na cadeira, audiodescrição, organização segura do espaço e acessibilidade comunicacional com legendas em tempo real e intérprete de Libras. O Yoga Inclusivo fortalece o senso de pertencimento, o cuidado coletivo e a autonomia, contribuindo para uma prática mais democrática, equitativa e acessível a todos.
+
+============================================================
+id: 176
+Título: Copa Sesc de Tênis de Mesa
+Descrição: A 77ª edição da Copa Sesc promoverá um Festival de tênis de mesa para pessoas com e sem deficiência, buscando garantir o acesso e a promoção de experiências significativas nas ações esportivas. No dia 26 de setembro de 2026 (sábado) com início às 10h, jogos a partir das 10h30 Aberto ao público para o Festival de Tênis de Mesa e a COPA SESC será somente para pessoas com credencial PLENA e seus dependentes acima de 16 anos. No dia do evento os próprios competidores ajudarão na contagem dos pontos sendo juiz dos jogos – contribuindo com a integração e o espirito esportivo da modalidade.
+
+============================================================
+id: 182
+Título: Jogando com a Seleção Brasileira Feminina de Vôlei Sentado
+Descrição: Encontro com a equipe brasileira feminina de vôlei sentado que conquistou a quarta colocação nos Jogos Paralímpicos de Paris na França em 2024. Vivencie a modalidade junto as atletas, trocas de experiências, curiosidades e técnicas desta modalidade. 150A atividade propõe um encontro especial com atletas da Seleção Brasileira Feminina de Vôlei Sentado, proporcionando ao público uma vivência inspiradora que reúne prática esportiva, troca de experiências e diálogo sobre inclusão. Alinhada ao conceito Bem-estar ao Praticar da Semana MOVE 2026, a ação valoriza o esporte como instrumento de transformação social, fortalecimento de vínculos e ampliação da participação de diferentes públicos nas práticas corporais. A presença de atletas que representaram o Brasil nos Jogos Paralímpicos de Paris 2024, alcançando a quarta colocação na competição, amplia o acesso a referências do paradesporto brasileiro e contribui para a valorização da diversidade, da superação e do protagonismo das pessoas com deficiência
+
+============================================================
+id: 192
+Título: Narrativas do Palco: Audiovisual e Videomapping - Módulo I
+Descrição: Introdução e experimentação em audiovisual para a cena e videomapping, com foco no cinema expandido como linguagem artística. A proposta do curso contempla narrativa audiovisual, projeção, corpo, objeto, espaço, luz e som em processos olaborativos de criação. Ao longo de 3 módulos, os participantes desenvolvem repertório estético e técnico por meio de exercícios práticos, testes de projeção, captação, edição e mapeamento simples, culminando em uma mostra final de estudos e/ou peça curta coletiva. PROGRAMA DO MÓDULO 1:Encontro 1 – Integração, sensibilização e introdução ao cinema expandidoEncontro 2 – Linguagem audiovisual para cenaEncontro 3 – Palco como tela: superfície, escala e presençaEncontro 4 – Luz, sombra, som e atmosfera cênica Um Cafofo é o núcleo artístico formado por André Grynwask e Pri Argoud, dedicado à criação de experiências audiovisuais para espaços ao vivo. Atuando na fronteira entre vídeoarte, videomapping e cena contemporânea, o duo transforma arquitetura, objetos e corpos em superfícies narrativas.
+
+============================================================
+id: 210
+Título: Traquinartes
+Descrição: Espaço dedicado ao brincar livre ao ar livre, que convida crianças e suas famílias a vivenciarem experiências lúdicas, criativas e colaborativas. A atividade propõe jogos, brincadeiras tradicionais e interações que estimulam a imaginação, o movimento e a convivência, valorizando o tempo de qualidade em família. Com a mediação dos educadores do Sesc, o ambiente é preparado para incentivar a autonomia das crianças, o respeito ao outro e a descoberta por meio do brincar, promovendo um espaço acolhedor onde diferentes gerações podem se encontrar, explorar e se divertir juntas. Em caso de chuva, a atividade poderá sofrer alterações ou ser cancelada.
+
+============================================================
+id: 211
+Título: Práticas Aquáticas - De 6 a 12 anos
+Descrição: Aprendizagem de atividades individuais e coletivas que promovem a prática da natação (crawl, costas, peito e borboleta) e de modalidades como nado artístico, caiaque, surfe e mergulho, para que crianças e jovens desenvolvam autonomia, tenham prazer em estar e se movimentar na água. Necessário credencial plena e exame dermatológico válido. COMO CONSULTAR VAGAS DISPONÍVEIS
+
+============================================================
+id: 213
+Título: Práticas Aquáticas - De 3 a 6 anos
+Descrição: As aulas utilizam o brincar e o jogo de faz-de-conta para favorecer a descoberta, a exploração, a autonomia e o prazer em estar e se movimentar na água. Com educadores do Sesc. Necessário credencial plena e exame dermatológico válido.
+
+============================================================
+id: 220
+Título: Esporte Jovem -  De 10 a 13 anos
+Descrição: Aprendizado das modalidades esportivas nas quais o(a) jovem vivencia experiências coletivas para compreender o jogo, as regras, a história dos esportes e os valores da competição. A inscrição para vagas disponíveis é liberada para quem tem Credencial Plena toda 1ª e 3ª quinta-feira do mês, a partir das 18h. Caso não sejam preenchidas nos primeiros cinco dias, elas serão abertas ao público em geral. Você pode acessá-las pelo aplicativoCredencial Sesc SPou pelo sitecentralrelacionamento.sescsp.org.br, na abaInscrições, para realizar a pré-inscrição. Em seguida, é necessário comparecer à unidade e finalizar o processo naCentral de Atendimento, apresentando a seguinte documentação para inscrição:
+
+============================================================
+id: 223
+Título: Luta olímpica com Aline Silva
+Descrição: Aline Silva é uma das maiores referências da luta olímpica (wrestling) no Brasil, sendo a primeira atleta do país a conquistar uma medalha em um Campeonato Mundial da modalidade (prata em 2014). Nascida em São Paulo, ela possui uma trajetória marcada por superação e grandes conquistas. Iniciou no judô aos 11 anos e, posteriormente, migrou para a luta olímpica. Fora dos tatames, destaca-se por sua atuação como vice-presidente da Confederação Brasileira de Wrestling (CBW) e por fundar o projeto social Mempodera, que utiliza o esporte para combater o machismo e promover a igualdade de gênero. Principais Conquistas
+
+============================================================
+id: 227
+Título: Aulas Abertas de Basquetebol
+Descrição: As Aulas Abertas de Basquetebol –Jogando com Capivarinhaspropõem uma vivência esportiva inclusiva e participativa, utilizando o basquete como ferramenta de integração, acolhimento e promoção da diversidade. A atividade reúne participantes de diferentes idades e níveis de experiência em um ambiente seguro, respeitoso e acessível, fortalecendo o esporte como espaço de convivência e pertencimento. Com a participação do Coletivo Capivarinhas Basquete, iniciativa comunitária construída por pessoas trans e voltada à população trans, a ação amplia o diálogo sobre inclusão e democratização do acesso às práticas esportivas. A proposta valoriza o esporte como instrumento de transformação social, incentivando a ocupação dos espaços esportivos por diferentes corpos, identidades e trajetórias. A programação será desenvolvida por meio de desafios, jogos e dinâmicas inspiradas em uma gincana de basquete, permitindo que os participantes experimentem os fundamentos da modalidade de forma lúdica e colaborativa. Entre as atividades propostas estão exercícios de controle de bola, dribles, passes, bandejas, arremessos e desafios de precisão, respeitando os diferentes níveis de familiaridade com o esporte.
+
+============================================================
+id: 231
+Título: Baile da Loba: Viva Alcione!
+Descrição: Prestigiado e aplaudido pela própria Alcione, Igor Galldino traz a melhor performance de tributo à Marrom. São muitos anos de pesquisa envolvendo figurino, maquiagem e tudo aquilo que compõe o universo da cantora, incluindo até suas unhas. Igor é a personificação desta que é tida por muitos como a maior cantora viva do Brasil. Mas é na impressionante performance vocal, na extensão e no timbre, que o talento deste artista realmente se destaca. Dedicado ao seu tributo à Marrom. Alcione Cover, por Igor Galldino, é a única que canta ao vivo, se monta e traz toda a riqueza de detalhes com réplicas de figurinos, reproduzidos com refinamento e luxo, proporcionando ao público a sensação de ver a verdadeira Alcione no palco.
+
+============================================================
+id: 235
+Título: Aulas Abertas de Voleibol
+Descrição: As Aulas Abertas de Voleibol integram as ações do Programa Sesc de Esportes, iniciativa que tem como objetivo democratizar o acesso à prática esportiva, incentivando hábitos saudáveis, a convivência social e a formação integral por meio do esporte. A atividade é destinada ao público em geral e ocorre junto às turmas regulares de voleibol do Programa, possibilitando que novos participantes conheçam a proposta pedagógica, a metodologia de trabalho e a dinâmica das aulas desenvolvidas pelo Sesc. Com base em princípios como inclusão, participação, respeito às diferenças e valorização da diversidade, o Programa Sesc de Esportes compreende o esporte como um instrumento educativo e de transformação social. Nesse contexto, o voleibol é trabalhado não apenas como modalidade esportiva, mas também como espaço de aprendizagem coletiva, cooperação, disciplina e convivência.
+
+============================================================
+id: 244
+Título: Copa Sesc 2026 | Maratona Aquática
+Descrição: Festival de Maratona Aquática que visa incentivar a prática inclusiva e prazerosa do esporte, promovendo a socialização e o acesso ao lazer dos trabalhadores e trabalhadoras do comércio de bens, serviços e turismo. Festival de Maratona Aquática Distância de 1.200 metros (1,2 km) na piscina em percurso circular, visando o treinamento de resistência para as etapas subsequentes.
+
+============================================================
+id: 247
+Título: Festival de futsal para mulheres
+Descrição: Com a condução da técnica Cris Souza, as participantes vivenciam um treino de futsal com dinâmicas e dicas para aprimorarem a compreensão de jogo e suas habilidades na modalidade. Cris Souzaé Graduada em Educação Física pela Universidade Federal de São Carlos (UFSCar); Mestra em Ciências Fisiológicas pela UFSCar. Foi eleita 3 vezes Melhor Treinadora do Mundo (2020, 2024 e 2025); Bicampeã da Libertadores (Instituto Lince); Tríplice Coroa Nacional (2024); Liga Feminina, Copa do Brasil e Taça Brasil; 6 vezes Campeã da Copa do Brasil; 7vezes Campeã do Campeonato Paulista (tornando o Esporte Clube Taboão o maior campeão da história da competição).
+
+============================================================
+id: 248
+Título: Futmesa
+Descrição: O público vivencia uma modalidade derivada do futebol e que utiliza uma mesa própria para rebater a bola durante a dinâmica do jogo. * Indicado para crianças a partir de 6 anos
+
+============================================================
+id: 249
+Título: Festival de Futebol Feminino
+Descrição: Com o acompanhamento da técnica Cris Souza, as mulheres participam de um festival de futsal voltado somente a elas com a intenção de integrar e de garantir um espaço seguro de prática esportiva.
+
+============================================================
+id: 250
+Título: Tarde de Jogos
+Descrição: Aqui a cooperação, a estratégia e a criatividade surgem como motores da brincadeira. Andressa Nishiyamaé multiartista, arte-educadora, pesquisadora das culturas populares e infâncias. Especialista em Arte na Educação (ECA-USP), bacharel em Artes Cênicas (Unicamp), ministrou aulas de artes visuais, teatro, ateliê, música e artes integradas em diversos projetos públicos. *Para crianças a partir de 6 anos acompanhadas de adultos.
+
+============================================================
+id: 256
+Título: Irmãos & Brothers
+Descrição: Irmãos & Brothers é formado por Sidiel Vieira (contrabaixo), Sidmar Vieira (trompete), Vitor Cabral (bateria) e Leandro Cabral (piano). Calcado na amizade de dois pares de irmãos que compartilham música há vinte anos, é difícil encontrar um grande nome da MPB que algum(s) dos músicos do grupo não tenha trabalhado; grandes jazzistas também fazem parte desse time de prestígio. Diversidade estética, swing, elegância e afrofuturismo são as marcas que alicerçam o som do grupo. Respeitando profundamente o passado, o grupo busca desenhar novas perspectivas sonoras para o futuro com música nova, afro-brasileira, arrojada, caseira e feita em família. Leandro Cabral(piano, composição e arranjos) é um músico de São Paulo influenciado pelos mundos de Egberto Gismonti e César Camargo Mariano, além de Keith Jarrett, Herbie Hancock e Bill Evans. Tem um álbum lançado, Alfa, que recebeu destaques em revistas especializadas. Bacharel em Piano pela Faculdade de Artes Alcântara Machado – FAAM/FMU (2004), Leandro começou seus estudos de piano clássico na infância. Na adolescência, estudou piano popular, saxofone e teoria musical na Fundação das Artes de São Caetano do Sul, em paralelo ao seu desenvolvimento no mundo dos teclados da black music. Lecionou piano jazz no Conservatório Souza Lima (SP) e na Escola de Música do Parque Ibirapuera (SP), além de aulas e workshops na EMESP e FASCS. Atua em festivais como professor.
+
+============================================================
+id: 264
+Título: Barulhos
+Descrição: Barulhos acompanha Rosa, uma menina que, enquanto enfrenta junto à sua mãe o luto pela morte da avó, passa a encontrar nos sonhos uma garota misteriosa que está em busca de sua casa perdida. Nesse mundo onírico, onde um barulho estranho faz o chão se mover e arrastar todas as casas, as duas meninas atravessam uma jornada repleta de encontros com figuras fantásticas ¿ uma onça falante, uma cabeça sem corpo, uma guia cientista ¿ na tentativa de recuperar aquilo que se desloca sem parar. SOBRE O ESPETÁCULOEm sua nova criação, o coletivo apresenta às crianças uma experiência cênica que atravessa o território dos sonhos por meio da investigação de diferentesmaterialidades. Em um mundo cada vez mais mediado por telas e marcado por um pensamento excessivamente concreto, Barulhos propõe um encontro entreimaginação, artesania teatral e sensibilidade, reforçando a parceria contínua com o dramaturgo Tadeu Renato. Desde 2020, o 28 Patas Furiosas desenvolve uma pesquisa artística sobre o quesonha a cidade de São Paulo, inspirando-se nos saberes de povos originários ¿especialmente Xavante, Yanomami e Guarani ¿ para compreender o sonho como forma de existência, cura e reconstrução de mundo. A investigação também dialoga com os estudos do neurocientista Sidarta Ribeiro, que compreende os sonhos como ferramentas cognitivas e afetivas fundamentais para organizar experiências, lidar com perdas e criar novas possibilidades diante da vida.
+
+============================================================
+id: 277
+Título: Stop Motion no Tempo e no Espaço
+Descrição: O curso propõe uma imersão histórica e estética no universo do stop motion, técnica de animação que consiste em fotografar objetos, recortes, bonecos ou pessoas quadro a quadro, criando a ilusão de movimento quando as imagens são exibidas em sequência. A atividade percorre diferentes momentos da história do cinema e das artes visuais, evidenciando como o stop motion se consolidou como uma linguagem artística marcada pela experimentação, invenção e diálogo entre técnicas. Partindo dos pioneiros do cinema, como Georges Méliès e Ladislas Starevich, o curso atravessa as vanguardas europeias, os filmes expressionistas, os experimentos abstratos e as escolas de animação do leste europeu, chegando às transformações tecnológicas do motion control e da captura digital. Também serão abordadas produções fundamentais de artistas e estúdios que expandiram os limites da técnica ao longo do século XX e XXI. Além de discutir diferentes vertentes do stop motion, como claymation, pixilation, animação com recortes, areia e objetos, o curso amplia o olhar para produções latino-americanas e brasileiras, destacando artistas que contribuíram para a consolidação da animação como campo expressivo e poético. A proposta articula cinema, artes visuais e história da imagem em movimento, oferecendo ao público um panorama crítico e sensível sobre esta linguagem híbrida e inventiva.
+
+============================================================
+id: 290
+Título: Judô
+Descrição: Clínica que incentiva o envolvimento feminino nas artes marciais, que vai muito além do fortalecimento físico. OJudôé uma arte marcial japonesa, praticada como esporte de combate e tem como objetivos desenvolver o físico, a mente e o espírito de forma integrada. Nathalia Lemos, pratica judô desde os 6 anos, aos 14, tornou-se faixa marrom sob a orientação daSensei Solange Pessoa (8º Dan)e, aos 16, integrou a seleção brasileira de base após destaque em competição, recebendo convite para treinar no Esporte Clube Pinheiros. Encerrada a carreira competitiva, passou a lecionar judô na Escola KYTO, a partir de 2024, com o Sensei Sumio Tsujimoto (8º Dan). Ministra aulas para alunos a partir dos 5 anos, promovendo a presença feminina no judô e incentivando o desenvolvimento esportivo e pessoal por meio de uma abordagem tradicional, acolhedora e motivadora.
+
+============================================================
+id: 299
+Título: Queimada paintball
+Descrição: Nessa queimada diferente, várias bolas são utilizadas e os participantes podem se “proteger” utilizando os blocos de espuma como escudos ou barreiras. * Indicado para crianças de 6 a 10 anos
+
+============================================================
+id: 302
+Título: Vem conhecer os instrumentos de Além Mar
+Descrição: Numa apresentação que mesclará histórias com músicas ancestrais serão apresentados alguns instrumentos tradicionais africanos como a M’bira e a Timbila. Fábio Timbira atua há 20 anos como músico pesquisador de histórias, tradições orais e costumes dos povos de diversas partes do mundo com ênfase nos países africanos, tendo como princípio a fabricação de instrumentos para compreender sua real natureza, contexto onde é inserido e sua função na sociedade.Artista Popular, Construtor de Instrumentos, criador de Xilogravuras, Bonecos Articulados e Mamulengos.Já trabalhou com diversos grupos de ritmos populares como Sambaqui, Tambores de Alma, Pé no Terreiro e atualmente faz parte do Coletivo Nguaiá. É fundador do Grupo Timbiraçu, onde apresenta instrumentos da família dos Lamelofones como a M´bira, Kisanji, Dzavadzimu, Likembe e Sanza, Sembas de Angola e a Timbila, Marimba ancestral de Moçambique.
+
+============================================================
+id: 311
+Título: Violino para crianças - Continuidade
+Descrição: Continuidade de prática de violino para crianças de 7 a 10 anos. Ao longo de 15 encontros semanais, os alunos exploram o instrumento por meio de histórias, jogos musicais e atividades práticas que desenvolvem postura, coordenação, percepção auditiva e musicalidade. De forma leve e envolvente, as crianças aprendem desde o reconhecimento das partes do violino até a execução de pequenas melodias, passando pela compreensão da teoria musical básica ¿ como notas, ritmo, figuras rítmicas e noções de leitura na pauta. A proposta valoriza a criatividade e a expressão artística, criando um ambiente seguro e motivador para o início da formação instrumental. Ao final do curso, os participantes apresentam um mini-concerto, celebrando as conquistas musicais conquistadas ao longo da jornada.
+
+============================================================
+id: 314
+Título: Espaço de Leitura
+Descrição: Espaço de Leitura com um acervo de livros, jornais e revistas disponíveis para consulta.
+
+============================================================
+id: 318
+Título: Esporte Adulto - Iniciação ao Vôlei
+Descrição: Prática da modalidade possibilitando a compreensão do jogo, da competição, além dos valores que envolvem o esporte como manifestação cultural. Indicado para pessoas que querem aprender ou retomar a prática esportiva. Incentiva a autonomia, o prazer pelo esporte e a melhoria da qualidade de vida. As vagas remanescentes são disponibilizadas na primeira e na terceira quinta-feira do mês, a partir das 18h. Caso não sejam preenchidas nos primeiros cinco dias, elas serão abertas ao público em geral. Você pode acessá-las pelo aplicativoCredencial Sesc SPou pelo sitecentralrelacionamento.sescsp.org.br, na abaInscrições, para realizar a pré-inscrição. Em seguida, é necessário comparecer à unidade e finalizar o processo naCentral de Atendimento, apresentando a seguinte documentação para inscrição:
+
+============================================================
+id: 329
+Título: Autopublicação: crie um fanzine de si
+Descrição: Oficina que convida as pessoas participantes a explorar a autopublicação por meio da criação de um fanzine artesanal, transformando memórias, vivências e fragmentos do cotidiano em narrativa visual e escrita. A proposta é vivenciar técnicas simples de colagem, desenho e escrita como forma de expressão de si. O que eu quero comunicar ao mundo? Que histórias minhas eu desejo contar? Andressa Nishiyamaé multiartista, arte-educadora, pesquisadora das culturas populares e infâncias. Especialista em Arte na Educação (ECA-USP), bacharel em Artes Cênicas (Unicamp), ministrou aulas de artes visuais, teatro, ateliê, música e artes integradas em diversos projetos públicos e privados. Integra a equipe do Sesc Consolação como Educadora de Tecnologias e Artes.
+
+============================================================
+id: 335
+Título: Esporte Adulto - Basquete
+Descrição: Promove o aperfeiçoamento das habilidades na modalidade específica, a valorização do jogo e da competição, além dos valores que envolvem o esporte enquanto manifestação cultural. Incentiva a autonomia, o prazer pela prática esportiva e a melhoria da qualidade de vida. Com educadores do Sesc. As vagas remanescentes são disponibilizadas na primeira e na terceira quinta-feira do mês, a partir das 18h. Caso não sejam preenchidas nos primeiros cinco dias, elas serão abertas ao público em geral. Você pode acessá-las pelo aplicativoCredencial Sesc SPou pelo sitecentralrelacionamento.sescsp.org.br, na abaInscrições, para realizar a pré-inscrição. Em seguida, é necessário comparecer à unidade e finalizar o processo naCentral de Atendimento, apresentando a seguinte documentação para inscrição:
+
+============================================================
+id: 336
+Título: Recreação de Vôlei
+Descrição: Recreação orientada que visa incentivar a prática regular da modalidade e estimular a integração entre as(os) participantes. O material é fornecido pelo Sesc. É necessário traje adequado para a prática esportiva, cadeado para guardar os pertences nos armários dos vestiários ou dos ginásios e credencial do Sesc atualizada (plena, MIS ou atividade).Programação sujeita a alteração. Obs.:Em razão a realização da Copa Sinsaúde, ações da Semana Move e Copa Sesc, a Recreação de Vôlei está cancelada nos dias 12, 19 e 26 de setembro
+
+============================================================
+id: 338
+Título: Esporte Adulto - Basquete Feminino
+Descrição: Prática da modalidade possibilitando a compreensão do jogo, da competição, além dos valores que envolvem o esporte como manifestação cultural. Indicado para pessoas que querem aprender ou retomar a prática esportiva. Incentiva a autonomia, o prazer pelo esporte e a melhoria da qualidade de vida. As vagas remanescentes são disponibilizadas na primeira e na terceira quinta-feira do mês, a partir das 18h. Caso não sejam preenchidas nos primeiros cinco dias, elas serão abertas ao público em geral. Você pode acessá-las pelo aplicativoCredencial Sesc SPou pelo sitecentralrelacionamento.sescsp.org.br, na abaInscrições, para realizar a pré-inscrição. Em seguida, é necessário comparecer à unidade e finalizar o processo naCentral de Atendimento, apresentando a seguinte documentação para inscrição:
+
+============================================================
+id: 346
+Título: Contrabaixo Acústico - Iniciante
+Descrição: Iniciação instrumental e musical em Contrabaixo Acústico, no qual são abordados elementos específicos do instrumento – como postura, sonoridade e afinação -, e elementos de teoria musical – como leitura, e aspectos da história da música do instrumento. Doutoranda em música e mestre em artes pela Escola de Comunicações e Artes da Universidade de São Paulo. É contrabaixista, cantora, compositora, arranjadora e produtora musical. Possui formação em musicalização infantil pelo Conservatório Musical Mozart. Foi aluna do curso de contrabaixo acústico no projeto social EMEC e da oficina de canto popular da EMESP. Tem um trabalho consolidado como musicista de cena e, atualmente, integra o espetáculo “Conforto”, de Ana Flavia Cavalcanti, como contrabaixista e cantora, e o espetáculo “Pai contra Mãe ou Você está me ouvindo?” do Coletivo Negro como contrabaixista, cantora, flautista e arranjadora musical. Integra o duo Y mã, colabora como contrabaixista com o grupo Clarianas e entre seus trabalhos mais recentes estão os disco “EIN 001 – Jadsa, Lua Bernardo, Sáskia e Xeina Barros” do Selo SESC e a produção musical de “Peito esburacado”, de Walter Garcia. * Indicado para pessoas a partir de 13 anos
+
+============================================================
+id: 350
+Título: Práticas Aquáticas | Aprendendo a nadar
+Descrição: Atividade voltada para pessoas que não sabem nadar e tem interesse em se familiarizar com o meio líquido e queiram iniciar sua aprendizagem de nado. Dentre os conteúdos desenvolvidos teremos: adaptação respiratória, primeiros deslocamentos, controle corporal dentro d’água, entre outros. Necessário ter credencial plena, exame dermatológico válidos e cadeado para guardar os pertences nos armários dos vestiários. Caso não possua cadeado, é possível adquiri-lo na Loja Sesc. Inscrição na piscina no dia da aula a partir das 10h com as(os) educadoras(es)
+
+============================================================
+id: 356
+Título: Recreação de Futsal para Mulheres
+Descrição: Recreaçãoorientadaque visaincentivarapráticaregular damodalidadeeestimularaintegraçãoentre asparticipantes. O material éfornecidopeloSesc. É necessário traje adequado para a prática esportiva e credencial do Sesc atualizada (plena, MIS ou atividade). Durante a atividade é necessário guardar seus pertences no armário, utilizando sempre cadeado. Caso não possua cadeado, é possível adquiri-lo na Loja Sesc.Programaçãosujeitaaalteração. Obs.:Em razão a realização da Copa Sinsaúde, ações da Semana Move e Copa Sesc, a Recreação de Futsal para Mulheres está cancelada nos dias 13, 20 e 27 de setembro
+
+============================================================
+id: 367
+Título: Curso de Atuações
+Descrição: Confira aquia divulgação da lista de pessoas selecionadas para o Curso de Atuações (Turma 2026-2027) do Centro de Pesquisa Teatral (CPT_Sesc) Estão abertas as inscrições para oCurso de Atuações(Turma 2026–2027), percurso formativo promovido pelo Centro de Pesquisa Teatral (CPT_Sesc) voltado à formação de artistas e ao aprofundamento de pesquisa em atuação nas linguagens cênicas. O curso de longa duração é direcionado a intérpretes em formação, estudantes de artes cênicas e artistas iniciantes da cena contemporânea, oferecendo 30 vagas em formato presencial. Ao longo de dez meses, as atividades conjugam o legado pedagógico do CPT com abordagens contemporâneas da formação em atuação, articulando práticas corporais, vocais, dramatúrgicas e performativas com um eixo teórico reflexivo. Durante o percurso, haverá aberturas de processos ao público.
+
+============================================================
+id: 380
+Título: Nhemboaty Nhemonguetá: Roda de escuta Guarani
+Descrição: Roda de escuta e conversa conduzida por lideranças Guarani da Terra Indígena do Jaraguá em parceria com a Rede de Atenção à Pessoa Indígena da USP. Todas as pessoas participantes são convidadas a falar e escutar a partir de suas perspectivas pessoais, em dinâmica conduzida pelas lideranças presentes. Nhemboaty é uma palavra da língua Guarani composta pela junção das partículas nhembo, que pode ser traduzida como ensinar ou aprender, e aty, que se refere a encontro. Nhemonguetá desdobra o encontro de mundos em que a escuta atenta e ininterrupta de cada um que se levanta é sucedida por expressões de outrem, em contato íntimo com as ancestralidades e as coletividades presentes. O cuidado com o ambiente em que o Nhemboaty Nhemonguetá acontece é essencial para propiciar a escuta e envolvimento com a disponibilidade para que encontro de mundos possa acontecer. A atividade será coordenada pelas lideranças espirituais da Terra Indígena do Jaraguá, Sebastião Borges Karai Tataendy e Iraci Augusta Martim, que trarão seus xondaro e xondaria para acompanhamento de cada tarde com os profundos cânticos Mborai. A Rede de Atenção à Pessoa Indígena é um serviço do Instituto de Psicologia da USP que se desdobrou a partir de orientações das lideranças espirituais da Terra Indígena do Jaraguá, Sebastião Borges Karai Tataendy e Iraci Augusta Martim, responsáveis pela construção da Casa de Culturas Indígenas xondaro kuery xondaria kuery onhembo’ea ty apy no campus da universidade, em 2017. A Rede Indígena é coordenada pelo professor Danilo Silva Guimarães(IP-USP). Paula Rasia Lira (Doutora em Psicologia pela USP) compõe o quadro de especialistas que cuida das atividades da Rede.
+
+============================================================
+id: 388
+Título: Dança de Rua: Ela Dança Eu Danço
+Descrição: Aula de dança baseada nos filmes de danças dos anos 2000, com movimentos coreografados e construídos, a aula trabalha o condicionamento físico e a coordenação motora. Não recomendado para menores de 12 anos.
+
+============================================================
+id: 411
+Título: Bordado de Primavera
+Descrição: Atividade de introdução ao bordado ao ar livre. A oficina, ao ocupar a rua como espaço de criação, propõe uma reflexão sobre práticas coletivas em diálogo com o ambiente urbano, levando o bordado ao espaço público e transformando a rua em território de convivência e expressão, enquanto a primavera atua como símbolo norteador e de renovação. Jéssica Rampimintegra a equipe de educadores de Tecnologias e Artes do Sesc Avenida Paulista. Educadora, designer e artesã, trabalha principalmente com artes têxteis e os cruzamentos entre o manual, digital e fabricação digital. *A atividade aconteceria originalmente no Bulevar, mas por questões meteorológicas foi transferida para o Térreo.
+
+============================================================
+id: 412
+Título: Esporte Adulto - Judô
+Descrição: Prática do Judô possibilitando a compreensão dos valores que envolvem o esporte como manifestação cultural. Indicado para pessoas que querem aprender ou retomar a prática esportiva. Incentiva a autonomia, o prazer pelo esporte e a melhoria da qualidade de vida. Abertura de vagas para Credencial Plena, mediante disponibilidade, toda 1ª e 3ª quinta-feira do mês, a partir das 18h, pelaCentral de Relacionamento Digital. Durante os primeiros cinco dias, as vagas são exclusivas para quem possui Credencial Plena (titulares e dependentes). Após esse período, se houver vagas remanescentes, elas serão disponibilizadas para o público geral.
+
+============================================================
+id: 443
+Título: Vozes da independência - autonomia alimentar, territórios e sustentabilidade
+Descrição: Concluindo o tema da Feira de setembro “Vem fazer a Feira: Mãos que alimentam, independência se faz com sabor e autonomia” com um bate papo que reúne as artes e escritas produzidas pelo público ao longo do mês sobre “O que é independência alimentar e sustentável para você?”. Um espaço de diálogo sobre autonomia alimentar, cultura, território, sustentabilidade e modos de vida possíveis.
+
+============================================================
+id: 456
+Título: Conexão Jovem
+Descrição: Empréstimo de jogos modernos do acervo do programa Juventudes, pensados especialmente para adolescentes e jovens acima de 13 anos de idade. Os jogos modernos têm como proposta o jogar em grupo mobilizando práticas de cooperação e criatividade. Para jogar, dirija-se até a Biblioteca da unidade, escolha o jogo que desejar e aproveite! Retirada e devolução na Biblioteca com a Credencial Plena ou Credencial Atividades.
+
+============================================================
+id: 464
+Título: PSE - Aula aberta de Jogos de Lutas
+Descrição: As lutas são atividades físicas que envolvem combate corpo a corpo entre dois oponentes. A maioria desses modalidades se originaram com o objetivo de ensinar técnicas de defesa e consciência corporal para seus praticantes.
+
+============================================================
+id: 473
+Título: A construção do impossível: a autoria na arte mágica 
+Descrição: De 17/9 a 5/11, quintas, das 10h30 às 13h.O curso concentra o processo de autoria na arte mágica, investigando como uma ideia, um efeito ou um material técnico pode ganhar forma cênica, identidade e continuidade no repertório de quem apresenta. O percurso trabalha dramaturgia, direção, imagem, presença, estrutura, ritmo e relação com o espectador. Cada participante escolhe um material real de trabalho e o desenvolve ao longo das aulas, em regime de laboratório: exercícios práticos, ensaios, análises de caso e devolutivas coletivas. O trabalho é individual no seu objeto, mas coletivo no processo. A turma funciona como um ateliê compartilhado, em que o olhar dos colegas faz parte do método.Sem foco direto na transmissão de segredos, a técnica entra como parte de uma escolha maior: produzir experiências de impossível que tenham clareza, força e assinatura própria.Programação: Encontro 1:Do Repertório Ao Projeto AutoralObjetivo: selecionar um material real de trabalho e transformá-lo em projeto de criação para o módulo.Encontro 2:Dramaturgia Do ImpossívelObjetivo: estruturar a experiência do público ao longo de um número.Encontro 3:Da Ideia Ao Efeito: Condições, Clareza E NaturalidadeObjetivo: investigar como uma ideia ganha força por meio de condições, escolhas de método e leitura clara do público.Convidado: BernardoSedlacek.Encontro 4:Quem Realiza O Impossível?Objetivo: desenvolver presença, posição cênica e relação com o espectador.Encontro 5:Imagem Impossível, Design E Pensamento TeatralObjetivo: ampliar o pensamento sobre invenção, visualidade e encenação.Convidado: JimSteinmeyer.Encontro 6:Direção De Número: Cortar, Organizar, Dar FormaObjetivo: revisar materiais em processo e definir escolhas de direção.Encontro 7:O Mentalista Como Autor: Personagem Real, Presença E MistérioObjetivo: investigar como a construção de um personagem verdadeiro e de um universo autoral sustenta o efeito e o transforma em obra.Convidado: Rick Thibau.Encontro 8:Mostra De Processo, Circulação E ContinuidadeObjetivo: consolidar os aprendizados, situar o trabalho no mundo profissional e definir os próximos passos de cada projeto.ComRicardoMalerbi, ilusionista, formado em mágica pela Academia Brasileira de Artes Mágicas em 2000 e graduado em Comunicação e Artes do Corpo com foco em performance pela PUC-SP em 2006.ComRudi Solon, mágico e ator que pesquisa a ilusão como fenômeno comunicativo.Mestre peloprograma de pós-graduação em Ciências da Comunicação pela USP, onde estudou a relação entre mágica e imagem.ComBernardoSedlacek,especialista em close-up, vertente do ilusionismo que exige domínio técnico absoluto e contato direto com o público.ComRick Thibau, mentalista.ComJimSteinmeyer, autor, inventor e designer norte-americano de ilusões mágicas e efeitos especiais teatrais Inscrições a partir do dia 27/8, às 14h, no site do Centro de Pesquisa e Formação do Sesc ou pelo aplicativo Credencial Sesc SP. Após o início da atividade não é possível realizar inscrição. O cadastro é pessoal e intransferível.
+
+============================================================
+id: 480
+Título: Mutações: Uma sociedade amoral
+Descrição: Dia 25/9, sexta, das 19h30 às 21h30. Em um mundo marcado por guerras permanentes e violência cada vez mais naturalizada, o que acontece com os valores que sustentam a vida em comum? A conferência discute o enfraquecimento dos referenciais morais e pergunta se ainda é possível construir uma ética da responsabilidade, do pertencimento e da convivência. Pascal Dibie, antropólogo e professor da Universidade Paris VII. As guerras contemporâneas transformaram profundamente nossa relação com a violência. Conflitos armados mediados por drones, mísseis e tecnologias de vigilância tornam-se cada vez mais distantes de quem os conduz, enquanto suas consequências recaem sobre populações civis submetidas à destruição cotidiana. Em um cenário marcado pela sucessão de guerras e crises humanitárias, a violência tende a se naturalizar, convertendo-se em parte da paisagem do presente. Partindo desse diagnóstico, a conferência propõe refletir sobre o enfraquecimento dos fundamentos morais que sustentavam a vida em comum. Mais do que um conjunto de normas, a moral é compreendida como a capacidade de reconhecer-se responsável diante dos outros e de participar de uma sociedade compartilhada. Quando essa experiência se dissolve, também se fragiliza a possibilidade de construir vínculos, reconhecer pertencimentos e atribuir sentido à vida coletiva.
+
+============================================================
+id: 481
+Título: Interseccionalidade e transdisciplinaridade: docência e leis 10639/02 e 11645/08
+Descrição: Dia 26/9, sábado, das 10h30 às 12h30. O encontro aborda a trajetória do movimento negro na educação, a implementação das Leis 10.639/03 e 11.645/08 e o conceito de interseccionalidade, articulando raça, classe, gênero e sexualidade na prática docente. Com Mônica Guimarães Teixeira do Amaral (FEUSP) e Maria da Glória Calado, pesquisadoras do projeto Docências Compartilhadas e referência em educação antirracista. A discussão é feita, inicialmente, em torno da trajetória do movimento negro educador no Brasil e suas contribuições para a implementação da Lei  10.639/03, responsável por alterar a Lei de Diretrizes e Bases da Educação (LDB). Em seguida, é abordado o conceito de interseccionalidade, envolvendo as opressões de classe, raça, gênero e sexualidade e de como essas dimensões atravessam as subjetividades de alunos e professores. Patrícia Hill Collins e Bilge (2021) abordam a interseccionalidade das opressões em diálogo muito próximo à Educação Crítica veiculada por Paulo Freire (1970), salientando que os oprimidos apontados por esse grande educador são hoje os sem-teto, os sem-terra, as mulheres, os pobres, as pessoas negras, as minorias sexuais, os indígenas, os imigrantes sem documentos, entre outros. Esse conceito se fez presente nas docências compartilhadas realizadas nas escolas públicas pesquisadas, articulando as diversas unidades curriculares e os saberes e história das culturas afro-brasileira e indígenas. Com isso, é realizado o aprofundamento dos conhecimentos específicos dessas áreas em diálogo com as Leis nº 10.639/03 e nº 11.645/08, que estabelecem a obrigatoriedade do ensino da história e das culturas afro-brasileiras, africanas e indígenas na Educação Básica.
+
+============================================================
+id: 482
+Título: Cine-debate: Quando a arte imita a vida: suicídio em cena - A metade de nós
+Descrição: Dias 26/9,sábado,das 10h30 às 13h Segundo o Boletim Epidemiológico lançado ano passado (BRASIL, 2024), mais de 15 mil pessoas morreram por suicídio no Brasil no último ano, o que representa uma morte a cada 34 minutos. Quando falamos das pessoas impactadas por essas mortes sabemos que, para cada morte ocorrida, por volta de 135 pessoas são afetadas significativamente. Esses dados evidenciam a importância de abordar a temática do suicídio – fenômeno que é considerado uma questão de saúde pública desde 1990 em nosso país. Apesar disso, o suicídio ainda é marcado por forte tabu e silenciamento social, dificultando o cuidado com as pessoas que vivenciam pensamentos suicidas, aquelas enlutadas por esse tipo de morte e a mobilização coletiva em torno da prevenção. Nesse contexto, o cinema se apresenta como um espaço privilegiado para romper com o interdito social que cerca o tema, ao criar narrativas que sensibilizam, informam e provocam reflexão crítica.
+
+============================================================
+id: 495
+Título: O que eu desejo ainda não tem nome: para Clarice Lispector
+Descrição: Dia 03/10, sábado, das 15h30 às 17h30 Nesta homenagem a Clarice Lispector, Carlos Navas mescla as linguagens literária e musical. Ele compartilha com o público o seu impacto ao experienciar a escrita clariceana, com a leitura de trechos de livros comoA hora da estrela,A paixão segundo GH,Água vivaePerto do coração selvagem, além dos contos “Por não estarem distraídos”, que faz parte dePara não esquecer, e “O artista perfeito”. Em bate-papo com Yudith Rosenbaum, Navas aprofunda a interface dessa literatura com a psicanálise, que também aparece na arte que professa, a música, em que é acompanhado do violonista Serginho Souza. As canções do programa se relacionam com a atmosfera da escritora: “Sem Destino” (Luiz Tatit), “Força estranha” (Caetano Veloso), “Beatriz” (Edu Lobo/Chico Buarque) e “João e Maria” (Sivuca/Chico Buarque). O público presente tem a oportunidade de fazer perguntas e compartilhar seus atravessamentos diante da obra de Clarice. Com Carlos Navas, intérprete paulistano. Em seus onze discos solo, o repertório reúne autores contemporâneos como Alzira E, Itamar Assumpção, José Miguel Wisnik, Marina Lima e Vitor Ramil. Ao longo de trinta anos de carreira, lançou álbuns temáticos dedicados a Mario Reis e Custódio Mesquita e também dois CDs infantis:Algumas Canções da Arca…(2004) eCanções de faz de conta(2007), onde interpreta, respectivamente, Vinicius de Moraes e Chico Buarque para crianças. Em 2013, chegou ao mercado o DVDEnsaio, que registra sua passagem pelo programa homônimo, dirigido por Fernando Faro. O acústicoCrimes de Amor(2015-2017), seu décimo álbum, foi bem recebido pela crítica. Em 2016, regravou em voz e piano “O chamado”, hit de Marina Lima (em parceria com Giovanni Bizzotto), que se tornou seu primeiro single exclusivamente digital. Foi convidado pelo músico Guga Stroeter no ano seguinte para ser a voz do espetáculo em homenagem aos 30 anos do quinteto de Jazz Nouvelle Cuisine. Em 2022, lançou o álbumAll of You: canções de Cole Porter em voz e piano. É também psicanalista.
+
+============================================================
+id: 497
+Título: [on-line] Literatura juvenil: histórias que transformam
+Descrição: De 29/9 a 8/10, terças e quintas, das 15h às 17h30 Esta série de encontros reflete a importância da literatura para a juventude de uma forma que não se costuma pensar: pela perspectiva do leitor. Fala-se muito sobre a aproximação do jovem com a leitura, sem, no entanto, entender o que o jovem quer, o que se passa com ele, o que busca e o que o conecta. E é essa a proposta: conversar sobre os jovens para, então, pensar na literatura com a qual podem se conectar. Afinal, são os jovens que não estão interessados em nada — como se costuma dizer — ou são os adultos que pouco estão atentos ao que realmente lhes interessa? O cursoLiteratura juvenil: histórias que transformampropõe, assim, um mergulho na relação dos jovens com o livro e a leitura. Em aulas expositivas, Caio Tozzi aproveita sua experiência de mais de dez anos escrevendo livros para pré-adolescentes, adolescentes e jovens adultos para discutir a importância da arte no desenvolvimento dessa faixa etária, questionar o que faz, de fato, o adolescente se conectar com os livros e analisar algumas obras emblemáticas voltadas para esse público.
+
+============================================================
+id: 501
+Título: O Processo Criativo e a Palhaçaria
+Descrição: De 07/10 a 23/10, quartas e sextas, das 15h às 18h O curso busca investigar a musculatura criativa do ser humano pelo olhar da palhaçaria. Por meio de jogos, exercícios e dinâmicas e disparadores, a atividade circula por caminhos para ativar o olhar criativo, tanto para a cena quanto para a vida. O palhaço nos convida ao momento presente, à liberdade de ser antes que as exigências sociais nos moldem. Esses conceitos são explorados em jogos, exercícios e dinâmicas de grupo. A palhaçaria é inclusiva e acessível: não exige pré-requisitos físicos ou intelectuais. O foco é o brincar, o prazer e o acolhimento de cada pessoa em sua inteireza. Com Gabriella Argento, atriz e palhaça, foi a primeira palhaça brasileira no Cirque du Soleil, atuando por mais de 10 anos em três produções. Vencedora do Prêmio APCA de melhor atriz, integrou o elenco dos Doutores da Alegria e do Jogando no Quintal.
+
+============================================================
+id: 513
+Título: Online - Tecnologia e o futuro das proteínas
+Descrição: Dia 14/10, quarta, das 14h às 16h Quem decide como a tecnologia se transforma em alimento? A agricultura celular (CellAg), também conhecida como carne cultivada ou carne de laboratório, é frequentemente celebrada como uma solução para os atuais problemas de sustentabilidade, segurança e ética nos sistemas alimentares. No entanto, as pesquisas nessa área continuam tecnocêntricas e com foco econômico, negligenciando o potencial da tecnologia para revolucionar as cadeias globais de abastecimento alimentar. Como a CellAg transfere a produção de proteínas dos animais nas áreas rurais para laboratórios de fermentação, isso significa que o abate de animais deixa de ser necessário e exige novos conhecimentos profissionais, transformando radicalmente o trabalho nas cadeias alimentares. Inovações tecnológicas que não incluem as pessoas que serão impactadas por essas transformações, como os produtores convencionais e os futuros consumidores, podem gerar novas desigualdades e injustiças nos sistemas alimentares. O foco dessa apresentação é introduzir o público a essa nova tecnologia, apresentar as pesquisas sobre o impacto social que ela gera e discutir como a imaginamos para o futuro da nossa alimentação. Para uma transição alimentar justa, convido todas e todos a construírem imaginações tecnológicas inclusivas, orientadas por um diálogo horizontal entre múltiplos atores sobre tecnologia e alimentação. Com Mariana Hase Ueta, socióloga especializada em Estudos de Ciência e Tecnologia e atua na interseção entre a sociologia da alimentação, sistemas alimentares sustentáveis, e tecnologias emergentes. Ela é pesquisadora de pós-doutorado na Wageningen University & Research, e co-lidera o grupo de Impactos Sociais das Tecnologias na Associação Holandesa de Biotecnologia. Ela também atua como mentora no Sustentarea (USP) e na produção do podcast “Comida que Sustenta”. Como pesquisadora interdisciplinar, Dra. Hase Ueta prioriza processos inclusivos de desenvolvimento tecnológico no contexto das mudanças climáticas.
+
+============================================================
+id: 527
+Título: Arte e mídias digitais
+Descrição: De 20 a 28/10, terças e quartas, das 11h às 13h O curso tem como objetivo analisar criticamente as transformações nos modos de produção, circulação e recepção da arte a partir do advento das mídias digitais. Propõe o estudo das relações entre arte, tecnologia e cultura digital, considerando as reconfigurações da imagem, da autoria, da interatividade e da presença no ambiente virtual. Investiga práticas artísticas que operam com redes, softwares, inteligência artificial, realidade virtual e dispositivos móveis, refletindo sobre seus impactos estéticos, políticos e sociais. Discute, ainda, as noções de virtualidade, imersão, algoritmo e cultura participativa como dimensões constitutivas da arte contemporânea. Encontro 1 – 20/10 – Arte e Tecnologia: Fundamentos e Transformações
+
+============================================================
+id: 528
+Título: Em Primeira Pessoa: Hyldon
+Descrição: Dia 21/10, quarta, das 19h30 às 21h Nascido em 1951 na Bahia, Hyldon vive da música desde os 14 anos. Foi instrumentista no início de carreira, tendo passado a produtor de artistas como Erasmo Carlos, Diana, Wanderléa e Odair José. Alcançou grande popularidade nos anos 70 com o lançamento de seu primeiro sucesso, a canção Na Rua, na Chuva, na Fazenda (Casinha de Sapê), título de seu primeiro álbum. Outros grandes sucessos vieram, tais como: As Dores do Mundo, Na Sombra de uma Árvore, Acontecimento e Velho Camarada. Junto com Tim Maia e Cassiano, é um dos grandes expoentes da soul music brasileira. Nos anos 1990, começa a ser redescoberto pelos novos nomes da música brasileira, sendo regravado com sucesso pelo Kid Abelha e Jota Quest. Suas músicas integraram as trilhas de filmes como Cidade de Deus, Carandiru, Durval Discos, O Homem do Ano, O divã, Antônia, entre outros. Neste encontro, Hyldon conversa com o público sobre sua trajetória profissional. ComHyldon,cantor, compositor e produtor musical.
+
+============================================================
+id: 530
+Título: Desejo, necessidade e vontade - a alimentação e a classe social na ficção
+Descrição: De 15 a 22/10, terças e quintas, das 15h às 18h Comida e bebida não apenas nos nutrem, mas expressam cultura e identidade. Na literatura, no cinema, nas séries de TV e nas telenovelas, o que está nas mesas fala de desejo, poder, pertencimento e diferença, em especial quando o menu traz símbolos associados às classes mais favorecidas e ao consumo do desejo. O que cada personagem come, onde come, como está posta a mesa são todos símbolos que a ficção toma a partir das realidades (de diferentes tempos e contextos) para apoiar a fantasia. E nada impede que esses mesmos símbolos refaçam o caminho em sentido inverso: saiam das telas e das páginas para tomarem espaços da vida real. Por meio da discussão sobre cenas das páginas e telas, conceitos teóricos da sociologia, antropologia, história e cultura culinária serão abordados com a intenção de refletir, junto aos participantes, sobre o consumo na sociedade atual. Esta atividade destaca como a gastronomia funciona como uma poderosa ferramenta narrativa que permite que a ficção tenha âncora e influência na realidade. A atividade é composta por 3 encontros com 2 horas e meia cada um, com a participação de Cíntia Marcucci, Denise Godinho e Joana Pellerano. A dinâmica inclui exposição dialogada; exibição e leitura de trechos de livros, filmes, séries e novelas; e debate com participantes.
+
+============================================================
+id: 536
+Título: Vida e obra de Vadico
+Descrição: Dia 23/10, sexta, das 19h às 21h A palestra revela a vida e a obra de Vadico Gogliano, compositor e pianista paulistano que marcou a história da música brasileira ao lado de Noel Rosa. A partir de uma extensa pesquisa de Franco Galvão, são apresentados documentos inéditos, gravações raras e episódios pouco conhecidos de sua trajetória artística no Brasil e nos Estados Unidos. Também aborda o processo de recuperação e registro de sua obra, culminando em um projeto fonográfico em parceria com o Selo Sesc que reuniu mais de 170 músicos e resultou no lançamento de um box com três CDs. Com Franco Galvão, compositor, diretor musical, arranjador e violonista. Em 2026, lançou o álbum Um efeito de cor, inspirado no romance Um Defeito de Cor, de Ana Maria Gonçalves, reunindo composições autorais para sopros e percussões.
+
+============================================================
+id: 542
+Título: [Online] Em jogo: o futebol no documentário brasileiro
+Descrição: Dias 19/10 e 26/10, segundas, das 15h às 17h A ideia de Brasil pode ser compreendida a partir do lugar que o futebol ocupa no imaginário do país, especialmente através das suas formas de sociabilidades. Neste curso, são analisadas as diferentes maneiras pelas quais o futebol brasileiro é representado no documentário, desde o cinema novo até os dias atuais, buscando perceber como essas obras abordam as diversas questões que atravessam a vida cotidiana, como o racismo, o machismo e as relações de gênero, sexualidades e raça. Com Francisco Alves Junior,pesquisador de pós-doutorado no Programa de Pós-Graduação em Comunicação da UFRB/CNPQ. É Doutor em Comunicação e Cultura Contemporâneas pela UFBA e pesquisador do Grupo de Estudos em Experiência Estética: Comunicação e Artes (GEEECA/UFRB).
+
+============================================================
+id: 549
+Título: O deserto fértil da escrita: módulo 2
+Descrição: De 15/10 a 5/11, quintas, das 19h às 21h30 Faltam-te pés para viajar? Viaja para dentro de ti mesmo.Rumi O deserto, nas tradições espirituais e simbólicas, é o lugar da retirada, do silêncio e do encontro com o essencial. Não é um espaço de esterilidade, mas de depuração. Ali, o excesso cai. O ruído diminui. O que é superficial não se sustenta. E, paradoxalmente, é nesse aparente vazio que algo fértil começa a brotar: uma escuta mais profunda, uma percepção mais fina, uma presença mais inteira.
+
+============================================================
+id: 571
+Título: Primavera Para Hitler
+Descrição: Max Bialystock é um produtor decadente da Broadway obrigado a ser romântico com idosas para financiar suas peças. Quando o tímido contador Leo Bloom é contratado para fazer sua contabilidade, ele revela sem querer que um produtor pode ganhar mais dinheiro com um fracasso do que com um sucesso. Direção: Mel BrooksPaís: EUAAno: 1967Duração: 88 Min.Gênero: DocumentárioClassificação Indicativa: 16 anos
+
+============================================================
+id: 572
+Título: Filmar Ou Morrer
+Descrição: Documentário ensaísticoqueinvestiga como osfilmes nascem de outrosfilmes e se tornam questão devida oumorteparacineastas. “O Estado das Coisas” (1982), de Wim Wenders, obra icônica dacinefilia, serve como ponto de partidaparauma teia internacional defilmes interconectados e abre espaçoparauma reflexão sobre a suposta “mortedocinema” após o “fim dahistória” pós-moderno. Ao mesmo tempo, ressoa de forma fascinante com amortereal de Glauber Rocha, líder doCinemaNovo, após o fracasso crítico de seu últimofilme, tragédia prevista pelo próprio Glauberquando, em Sintra, encontra PatrickBauchau, protagonista de “O Estado das Coisas”, e declara: “Sintra éumbelo lugarparamorrer”. Explorando o leitmotiv dasmortescinematográficas e reais, percorre a experiência conturbada de Wenders com Coppola e Hammett; sua “apropriação” do elenco e da equipe de “O Território” (1981), deRaúlRuiz; a relação de LauraMulveycomBauchau,quea introduziu àcinefilia e aparece em alguns de seusfilmes; e a forte conexão de Wenders com Walter Salles através de Portugal e dos cruzamentos entre suas obras. Ao costurar essashistórias, o documentário coloca em diálogo uma coleção de momentoscinematográficos deslumbrantes da Europa, de Hollywood e do Brasil, evidenciando como obras de diferentes tempos e geografias se alimentam e se entrelaçam emumcontínuo sem fronteiras. Entrevistas exclusivas com oscineastas Wim Wenders e Walter Salles, a crítica e diretora LauraMulveye o produtor português Paulo Branco revelam os riscos e as paixõesquemarcam ahistória e as narrativas dessesfilmes. Direção: Lúcia NagibPaís: Reino UnidoAno: 2025Duração: 1h29min. (89’)Gênero: DocumentárioClassificação Indicativa: 10 anos
+
+============================================================
+id: 589
+Título: Humberto Mauro
+Descrição: Umdocumentário-tributo a Humberto Mauro consideradoumdos pioneiros docinemabrasileiro e latino-americano. Ofilmetem por fio condutor uma entrevista gravada com Mauro nos anos 1960 no MIS – Museu da Imagem e do Som–,aborda avida docineasta a partir de seusfilmeseacriatividadedocinemade Mauro, expondo as incomuns soluções técnicasparafazer seusfilmes e a luta diante das adversidades inerentes ao ofício em uma pequenacidade no interior do Brasil, no início do século XX. Direção: André Di MauroPaís: BrasilAno: 2018Duração: 1h30min. (90’)Gênero: DocumentárioClassificação Indicativa: Livre Disponível na plataforma Sesc Digital de 11/9 a 11/11/2026.
+
+============================================================
+id: 594
+Título: Espaço Trajetórias do Corpo
+Descrição: Um espaço de esporte e bem-estar para explorar o corpo em ação, testar percursos, descobrir gestos e vivenciar a expressão corporal de forma acessível, criativa e prazerosa. Espaço MultissensorialCircuitos e estações de exploração motora com jogos, brincadeiras e materiais diversos, convidando todos a experimentarem estímulos motores e táteis de forma livre e participativa. Desafios propostos estimulam a percepção proprioceptiva, a interação social, a coordenação, o controle postural e a consciência motora. Experimente, descubra e movimente-se no seu ritmo!
+
+============================================================
+id: 598
+Título: Bestiário Pink
+Descrição: Bestiário PINK é uma trilogia, uma jornada, um arquipélago, uma trama de nós. Uma obra composta em três atos para um corpo anatomicamente dissecado e dividido em 3 diferentes eixos:Hidebehind(frente x costas),Glimpse(esquerda x direita) eCalor(cima x baixo). Ao partilhar emdois, esta obra torce, dobra, inverte, triplica e ficcionaliza situações, colocando cisões em vertigem e tensionando polaridades como vida/morte, norte/sul, humano/coisa, dentro/fora, conhecido/desconhecido, futuro/ancestralidade. A trilogia estreia no Sesc Pompeia, em São Paulo, comtemporada de 10 a 27 de setembro, de quinta a domingo, a partir das 19h30. A cada noite, o público acompanha dois dos três solos que compõem o trabalho: Hidebehind (frente e trás), interpretado por Josefa Pereira; Glimpse (direita e esquerda), por Natália Mendonça; e Calor (cima e baixo), por Iara Izidoro e objeto escultórico do artista visual Zé Vicente.
+
+============================================================
+id: 619
+Título: No Gogó - Pagode do Fofo
+Descrição: No Gogó – Samba no Deckpropõe uma roda de samba voltada que resgata a essência do samba em sua forma original, dispensando o uso de microfones e proporcionando ao público uma  intimista e autêntica. Nessa edição contamos com a presença doPagode do Fofoe participação especial deZé Maria OPagode do Fofoé uma roda de samba realizada semanalmente na Barra Funda, região reconhecida como um dos berços do samba paulistano. Liderado por Jeyson, Mestre de Bateria da escola de samba Camisa Verde e Branco, o encontro reúne sambistas e amantes do gênero em uma celebração da cultura popular, preservando a essência, a memória e a força do samba de São Paulo.
+
+============================================================
+id: 620
+Título: Kiko Dinucci
+Descrição: Medusa é o terceiro álbum solo de Kiko Dinucci, conhecido por tocar nos grupos Metá Metá e Passo Torto. Nesse novo disco, Kiko cria através de suas canções de amor conexões improváveis entre o rock barulhento de My Bloody Valentine e Sonic Youth com o universo do samba e do cancioneiro romântico de Roberto Carlos. Kiko sobe ao palco com Podeserdesligado (sampler e fitas).
+
+============================================================
+id: 627
+Título: Você gosta de pedalar?
+Descrição: Bicicleta, Mulheres, Liberdade, Movimento Dicas de conforto e cuidados com o corpo, através de um bate-papo sobre vivências reais das anjas e a relação das mulheres com a bicicleta. Dia 23/09 – das 19h30 às 20h30
+
+============================================================
+id: 642
+Título: Encontro de Gigantes
+Descrição: Duas figuras excêntricas aguardam com curiosidade a realização do tão esperadoEncontro de Gigantes. Enquanto nada acontece, começam a se questionar:os gigantes realmente existem?E como podemos saber que uma coisa existe? A espera chega ao fim quando a dupla é surpreendida pela chegada de uma figura fantástica que apresenta ao público a história de um elemento ancestral capaz de transformar a forma como olhamos para o mundo: como num passe de mágica, todos podemos ser gigantes! “Encontro de Gigantescelebra a origem milenar das pernas de pau e faz uma metáfora com o processo de crescer. Como a gente vai, infelizmente, perdendo o encantamento pela vida quando passa da infância para a fase adulta”, explica Camila Feoli, que assina o texto do espetáculo. A relação entre a perna de pau e o trabalho teatral está no centro da pesquisa doNúcleo Ás de Paus. A dramaturga também destaca que a montagem foi criada para dialogar com diferentes idades: “A gente nunca quis escrever um espetáculo só para criança, mas um espetáculo que servisse para criança, para adulto, para todo mundo.” O espetáculo estreou em 2019 e já passou por cerca de 50 cidades de seis estados brasileiros, somando mais de 150 apresentações. Em 2023, recebeu quatro prêmios no Troféu Gralha Azul, principal premiação do teatro paranaense: Melhor Espetáculo para Crianças, Melhor Dramaturgia para Camila Feoli, Melhor Direção de Espetáculo para Crianças para Camila Feoli, Rogério Francisco Costa e Thunay Tartari, e Melhor Atriz de Espetáculo para Crianças para Camila Feoli.
+
+============================================================
+id: 665
+Título: Esporte Jovem - Voleibol
+Descrição: Início do aprendizado das modalidades esportivas nas quais o jovem vivencia experiências coletivas para compreender o jogo, as regras, a história dos esportes e os valores da competição.Com educadoras(es) do Sesc. InscriçõesA inscrição para vagas disponíveis é liberada para quem tem Credencial Plena toda 1ª e 3ª quinta-feira do mês, a partir das 18h, pelo sitecentralrelacionamento.sescsp.org.brou pelo aplicativo Credencial Sesc SP, disponível nas lojasGoogle PlayouApp Store. Se ainda houver vagas remanescentes, após cinco dias, elas são disponibilizadas para o público geral.
+
+============================================================
+id: 671
+Título: Panelas e potes de barro - Avançado
+Descrição: Com a ceramista Beatriz Isidoro, a oficina propõe a criação de peças tradicionais como panelas e objetos não esmaltados, feitos em baixa temperatura e modelados manualmente, sem o uso do torno. Serão exploradas técnicas de decoração tradicionais e o uso de argilas naturais, valorizando práticas ancestrais do fazer cerâmico. Os participantes poderão confeccionar panelas e pratos utilitários, inclusive para fogo direto, aproximando arte e cotidiano. A atividade convida ao reencontro com saberes de família, memória e terra – módulo avançado. Beatriz Isidoroé Artista Visual, arte-educadora e pesquisadora. Possui licenciatura (2023) e bacharelado (2025) em Artes Visuais pela Unesp. Atualmente é professora de cerâmica do Ciclo Livre no Ateliê da Bea Reis e do ateliê aberto do Sesc Pompeia. No seu processo de formação como artista entende a pesquisa como parte de seu processo criativo, enxergando beleza no ato de testar, ler e construir conhecimento empírico sobre sua própria prática na linguagem da cerâmica que se direciona para aspectos de sua ancestralidade e a busca de materiais na natureza para uso na cerâmica. Pré-requisito:  Ter cursado o primeiro módulo do curso ou ter onhecimentos básicos sobre modelagem em argila.
+
+============================================================
+id: 674
+Título: Técnicas tradicionais de marcenaria - Avançado
+Descrição: O curso de técnicas básicas de marcenaria propõe a prática de diferentes métodos de encaixe, como a cauda de andorinha e o sistema furo-espiga com cunha – módulo vançado. Cadu Valadãoé educador em exposições de arte desde 2010. Formou-se em Design de Produto pela Universidade Mackenzie em 2011 e defendeu sua dissertação de mestrado na ECA USP, na área de Teoria, Ensino e Aprendizagem da Arte, em 2016. Pré-requisito:não há pré-requisitos
+
+============================================================
+id: 680
+Título: Esporte Criança | 3 a 6 anos
+Descrição: Atividades diversas são desenvolvidas por meio do brincar e do jogo de faz-de-conta, a partir da exploração de objetos, espaços e da imaginação das crianças. Com educadoras(es) do Sesc. 3ª e 5ª feiras, das17h30 às 18h20. Nas1ªs e 3ªs quintas-feiras do mês, a partir das18h, ao acessar aCentral de Relacionamento Digitalou oapp Credencial Sesc SP, será possível visualizar as vagas disponíveis e filtrar a busca de acordo com o curso, a unidade, os dias da semana e o horário de preferência.
+
+============================================================
+id: 684
+Título: Esporte Adulto - Badminton
+Descrição: Promove o aperfeiçoamento das habilidades na modalidade específica, a valorização do jogo e da competição, além dos valores que envolvem o esporte enquanto manifestação cultural. Incentiva a autonomia, o prazer pela prática esportiva e a melhoria da qualidade de vida.Para pessoas com 16 anos oumais. InscriçõesA inscrição para vagas disponíveis é liberada para quem tem Credencial Plena toda 1ª e 3ª quinta-feira do mês, a partir das 18h, pelo sitecentralrelacionamento.sescsp.org.brou pelo aplicativo Credencial Sesc SP, disponível nas lojasGoogle PlayouApp Store. Se ainda houver vagas remanescentes, após cinco dias, elas são disponibilizadas para o público geral.
+
+============================================================
+id: 688
+Título: Esporte Adulto - Iniciação ao Basquete Feminino
+Descrição: Promove o aperfeiçoamento das habilidades na modalidade específica, a valorização do jogo e da competição, além dos valores que envolvem o esporte enquanto manifestação cultural. Incentiva a autonomia, o prazer pela prática esportiva e a melhoria da qualidade de vida.Para pessoas com 16 anos oumais. InscriçõesA inscrição para vagas disponíveis é liberada para quem tem Credencial Plena toda 1ª e 3ª quinta-feira do mês, a partir das 18h, pelo sitecentralrelacionamento.sescsp.org.brou pelo aplicativo Credencial Sesc SP, disponível nas lojasGoogle PlayouApp Store. Se ainda houver vagas remanescentes, após cinco dias, elas são disponibilizadas para o público geral.
+
+============================================================
+id: 689
+Título: Esporte Adulto - Iniciação Voleibol
+Descrição: Promove o aperfeiçoamento das habilidades na modalidade específica, a valorização do jogo e da competição, além dos valores que envolvem o esporte enquanto manifestação cultural. Incentiva a autonomia, o prazer pela prática esportiva e a melhoria da qualidade de vida.Para pessoas com 16 anos oumais. InscriçõesA inscrição para vagas disponíveis é liberada para quem tem Credencial Plena toda 1ª e 3ª quinta-feira do mês, a partir das 18h, pelo sitecentralrelacionamento.sescsp.org.brou pelo aplicativo Credencial Sesc SP, disponível nas lojasGoogle PlayouApp Store. Se ainda houver vagas remanescentes, após cinco dias, elas são disponibilizadas para o público geral.
+

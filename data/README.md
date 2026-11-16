@@ -7,22 +7,33 @@ Os dados são públicos: as duas instituições divulgam sua programação nos p
 atividade traz título, descrição, unidade, data e as categorias que a instituição atribuiu. Não há
 dado de pessoa nenhuma.
 
+## Como a pasta está organizada
+
+As pastas seguem a ordem em que os dados foram sendo produzidos:
+
+| Pasta | O que tem |
+|---|---|
+| `01_scraping/` | os scripts da coleta |
+| `02_raw/` | o que a coleta trouxe, sem nenhuma alteração |
+| `03_processed/` | as tabelas que os notebooks geram, com o número do notebook que gerou cada uma no começo do nome |
+| `04_review/` | a revisão humana do notebook 08: o que mandamos, o que voltou e o que calculamos com as respostas |
+
 ## Coletas
 
 | Arquivo | Conteúdo |
 |---|---|
-| `raw/fabricas_activities_2026-09-23.csv` | 141 atividades das Fábricas de Cultura, 6 unidades, 19 categorias, uma categoria por atividade |
-| `raw/sesc_activities_2026-09-23.csv` | 564 atividades do SESC, 8 unidades, com a descrição completa |
-| `raw/sesc_categories_2026-09-25.csv` | 582 atividades do SESC com as categorias e o público, coletadas depois para corrigir o campo errado (ver abaixo) |
+| `02_raw/fabricas_activities_2026-09-23.csv` | 141 atividades das Fábricas de Cultura, 6 unidades, 19 categorias, uma categoria por atividade |
+| `02_raw/sesc_activities_2026-09-23.csv` | 564 atividades do SESC, 8 unidades, com a descrição completa |
+| `02_raw/sesc_categories_2026-09-25.csv` | 582 atividades do SESC com as categorias e o público, coletadas depois para corrigir o campo errado (ver abaixo) |
 
-Os arquivos de `raw/` não são alterados. Coleta nova entra como arquivo novo, com a data no nome.
+Os arquivos de `02_raw/` não são alterados. Coleta nova entra como arquivo novo, com a data no nome.
 
-Em `raw/original_collection/` fica o `Atividades_SESC.txt`, que é a mesma coleta do SESC no formato
+Em `02_raw/original_collection/` fica o `Atividades_SESC.txt`, que é a mesma coleta do SESC no formato
 de texto que o script também gera. Guardamos porque foi o arquivo da coleta original.
 
 ## Como os dados foram coletados
 
-Os dois scripts estão em `scraping/`.
+Os dois scripts estão em `01_scraping/`.
 
 O SESC carrega a programação do site por um endpoint que devolve JSON, então `Sesc_Atividades.py` pede
 esse JSON para cada unidade e depois abre a página de cada atividade para pegar a descrição inteira,
@@ -42,19 +53,21 @@ intervalo.
 
 ## Tabelas geradas pelos notebooks
 
-Ficam em `processed/` e são reconstruídas ao rodar os notebooks na ordem.
+Ficam em `03_processed/` e são reconstruídas ao rodar os notebooks na ordem. O número no começo do
+nome é o do notebook que gerou a tabela.
 
-| Arquivo | Vem de | Conteúdo |
-|---|---|---|
-| `activities.csv` | notebook 01 | as duas instituições numa tabela só |
-| `activities_prepared.csv` | notebook 02 | com o texto montado e a divisão treino/teste |
-| `embeddings.npy` | notebook 03 | um vetor de 1024 números por atividade |
-| `activities_clustered_tfidf.csv` | notebook 04 | agrupamento feito com TF-IDF |
-| `activities_clustered.csv` | notebook 05 | agrupamento por embeddings e a categoria nova de cada atividade |
-| `clusters_summary.csv` | notebook 05 | os 16 grupos com palavras, exemplos e o nome que demos |
-| `silhouette_tfidf.csv` | notebook 04 | qualidade do agrupamento por número de grupos |
+| Arquivo | Conteúdo |
+|---|---|
+| `01_activities.csv` | as duas instituições numa tabela só |
+| `02_activities_prepared.csv` | com o texto montado e a divisão treino/teste |
+| `03_embeddings.npy` | um vetor de 1024 números por atividade (não vai para o GitHub, e o notebook 03 o refaz) |
+| `04_activities_clustered_tfidf.csv` | agrupamento feito com TF-IDF |
+| `04_silhouette_tfidf.csv` | qualidade do agrupamento com TF-IDF por número de grupos |
+| `05_activities_clustered.csv` | agrupamento por embeddings e a categoria nova de cada atividade |
+| `05_clusters_summary.csv` | os 16 grupos com palavras, exemplos e o nome que demos |
+| `07_activities_multilabel.csv` | os grupos refeitos só com o treino, a lista de categorias que a régua deu a cada atividade e a semelhança dela com cada categoria |
 
-## Colunas da tabela principal
+## Colunas da tabela principal (`05_activities_clustered.csv`)
 
 | Coluna | O que é |
 |---|---|
@@ -67,8 +80,26 @@ Ficam em `processed/` e são reconstruídas ao rodar os notebooks na ordem.
 | `link` | endereço da atividade, só o SESC publica |
 | `text` | título e descrição juntos, que é o que vai para o modelo |
 | `split` | `train` ou `test` |
+| `cluster_tfidf`, `cluster_tfidf_no_institution` | grupos do agrupamento por TF-IDF (notebook 04), com e sem o nome das instituições, só para comparação |
 | `cluster` | grupo em que a atividade caiu |
 | `category` | a categoria nova, criada neste projeto |
+
+A tabela do notebook 07 acrescenta `labels` (a lista de categorias da atividade, separadas por `|`),
+`number_of_labels` e uma coluna `similarity_` por categoria.
+
+## Revisão humana
+
+Para conferir as categorias, cada um de nós rotulou do zero 30 atividades do teste, e metade das 100
+atividades sorteadas foi vista por duas pessoas. O notebook 08 gera as planilhas, lê as respostas e
+monta o gabarito humano.
+
+| Pasta | O que tem |
+|---|---|
+| `04_review/01_sent/` | o que mandamos: a planilha de cada um, as instruções, `review_assignment.csv` (quem recebeu cada atividade) e `llm_judge_input.txt` (o texto entregue ao modelo de linguagem) |
+| `04_review/02_answers/` | o que voltou: a planilha de cada um como chegou, e a do modelo de linguagem para as mesmas 100 atividades (`sheet_llm.csv`) |
+| `04_review/03_results/` | o que o notebook 08 calculou: `human_labels.csv` (as 150 respostas, com as categorias pelo nome), `disagreements.csv` (as discordâncias entre duas pessoas) e `gold_labels.csv` (o gabarito humano das 100 atividades) |
+
+As planilhas de `02_answers/` são tratadas como dado bruto e não são corrigidas à mão.
 
 ## Limitações
 

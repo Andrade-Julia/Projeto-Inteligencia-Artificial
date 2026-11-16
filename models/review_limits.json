@@ -1,0 +1,18 @@
+{
+ "borders": {
+  "Artes Visuais": 0.6571,
+  "Artesanato": 0.6187,
+  "Atividade Física e Bem-Estar": 0.6547,
+  "Cinema": 0.5352,
+  "Cultura e Identidade": 0.6757,
+  "Esporte": 0.6382,
+  "Infância e Brincadeiras": 0.6862,
+  "Literatura e Leitura": 0.6635,
+  "Música": 0.708,
+  "Plantas e Alimentação": 0.6163,
+  "Reciclagem e Sustentabilidade": 0.6848,
+  "Shows, Espetáculos e Performances": 0.5781,
+  "Sociedade e Debates": 0.5852
+ },
+ "minimum_top_probability": 0.443
+}

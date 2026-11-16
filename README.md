@@ -70,8 +70,8 @@ reescrevemos tudo do zero, mais enxuto e na ordem certa, e apagamos os antigos. 
 cabeçalho é por arquivo, e os arquivos antigos não existem mais, o que ficou registrado foi a data
 da reescrita.
 
-A coleta dos dados é anterior, e essa data aparece nos scripts em `data/scraping/` e no nome dos
-arquivos em `data/raw/`.
+A coleta dos dados é anterior, e essa data aparece nos scripts em `data/01_scraping/` e no nome dos
+arquivos em `data/02_raw/`.
 
 ## Etapa atual
 
