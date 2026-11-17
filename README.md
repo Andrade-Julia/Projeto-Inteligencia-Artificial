@@ -86,7 +86,7 @@ for o caso.
 ## Artigo e vídeo
 
 O artigo final está em [`docs/part3_submission/`](docs/part3_submission/), junto com a rubrica
-preenchida. O vídeo de apresentação está em: **[link do vídeo a incluir]**.
+preenchida. O vídeo de apresentação está em https://youtu.be/BHkIDcA5YPo.
 
 ## Sobre o histórico dos arquivos
 
